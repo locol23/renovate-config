@@ -1,0 +1,20 @@
+version: 2.1
+jobs:
+  test:
+    working_directory: ~/renovate-config
+    docker:
+      - image: circleci/node:12.16.1
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/renovate-config
+      - run:
+          name: test
+          command: npm test
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
+
