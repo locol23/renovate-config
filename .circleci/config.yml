@@ -1,5 +1,24 @@
 version: 2.1
 jobs:
+  install:
+    working_directory: ~/renovate-config
+    docker:
+      - image: circleci/node:12.16.1
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package-lock.lock" }}
+      - run:
+          name: install
+          command: npm i
+      - save_cache:
+          key: dependency-cache-{{ checksum "package-lock.lock" }}
+          paths:
+            - ./node_modules
+      - persist_to_workspace:
+          root: ~/renovate-config
+          paths:
+            - ./node_modules
   test:
     working_directory: ~/renovate-config
     docker:
@@ -16,5 +35,8 @@ workflows:
   version: 2
   test:
     jobs:
-      - test
+      - install
+      - test:
+          requires:
+            - install
 
