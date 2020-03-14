@@ -1,0 +1,8 @@
+{
+  "extends": ["@locol"],
+  "packageRules": [
+    {
+      "packageNames": ["renovate"]
+    }
+  ]
+}

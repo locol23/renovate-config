@@ -1,0 +1,57 @@
+{
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/locol23/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/locol23/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/locol23/renovate-config/issues"
+  },
+  "keywords": [
+    "npm",
+    "renovate"
+  ],
+  "author": "locol <locol6622@gmail.com>",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":timezone(Asia/Tokyo)"
+      ],
+      "npm": {
+        "labels": [
+          "renovate"
+        ],
+        "minor": {
+          "groupName": "all minor dependencies"
+        },
+        "patch": {
+          "automerge": true,
+          "groupName": "all patch dependencies"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
+    "renovate": "^19.171.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md,json}": "prettier --write"
+  }
+}
