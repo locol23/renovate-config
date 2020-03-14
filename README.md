@@ -4,7 +4,7 @@
 
 ## Setup
 
-Add `@locol` to `extends` property for your renovate config
+Add `@locol23` to `extends` property for your renovate config
 
 ```json
 {
