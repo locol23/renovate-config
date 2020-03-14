@@ -1,1 +1,1 @@
-console.log('@locol/renovate-config')
+console.log('@locol23/renovate-config')
