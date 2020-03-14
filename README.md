@@ -1,4 +1,4 @@
-# @locol/renovate-config
+# @locol23/renovate-config
 
 [Shareable config](https://renovatebot.com/docs/config-presets/) for [Renovate](https://renovatebot.com)
 
@@ -8,7 +8,7 @@ Add `@locol` to `extends` property for your renovate config
 
 ```json
 {
-  "extends": ["@locol"]
+  "extends": ["@locol23"]
 }
 ```
 

@@ -1,5 +1,5 @@
 {
-  "name": "@locol/renovate-config",
+  "name": "@locol23/renovate-config",
   "version": "1.0.0",
   "description": "Shareable config for Renovate",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "npm",
     "renovate"
   ],
-  "author": "locol <locol6622@gmail.com>",
+  "author": "locol23 <locol6622@gmail.com>",
   "license": "MIT",
   "renovate-config": {
     "default": {
