@@ -7,7 +7,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "renovate-config-validator"
   },
   "homepage": "https://github.com/locol23/renovate-config",
   "repository": {
