@@ -47,7 +47,7 @@
     "husky": "4.2.5",
     "lint-staged": "10.0.10",
     "prettier": "1.19.1",
-    "renovate": "19.176.3"
+    "renovate": "23.97.0"
   },
   "husky": {
     "hooks": {
