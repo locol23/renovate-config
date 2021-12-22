@@ -25,10 +25,10 @@
   "author": "locol23 <locol6622@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.3",
-    "prettier": "^2.5.1",
-    "renovate": "^31.11.4"
+    "husky": "7.0.4",
+    "lint-staged": "12.1.3",
+    "prettier": "2.5.1",
+    "renovate": "31.11.4"
   },
   "renovate-config": {
     "default": {
