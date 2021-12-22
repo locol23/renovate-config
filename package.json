@@ -7,7 +7,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "renovate-config-validator"
+    "test": "renovate-config-validator",
+    "prepare": "husky install"
   },
   "homepage": "https://github.com/locol23/renovate-config",
   "repository": {
@@ -23,41 +24,66 @@
   ],
   "author": "locol23 <locol6622@gmail.com>",
   "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.3",
+    "prettier": "^2.5.1",
+    "renovate": "^31.11.4"
+  },
   "renovate-config": {
     "default": {
       "extends": [
         "config:base",
-        ":timezone(Asia/Tokyo)"
+        ":label(renovate)",
+        ":timezone(Asia/Tokyo)",
+        ":noUnscheduledUpdates",
+        ":separatePatchReleases",
+        ":prNotPending"
+      ],
+      "schedule": [
+        "after 9pm",
+        "before 9am"
       ],
       "npm": {
-        "labels": [
-          "renovate"
+        "extends": [
+          "group:jestPlusTSJest"
         ],
+        "rangeStrategy": "bump",
+        "major": {
+          "automerge": false,
+          "stabilityDays": 0
+        },
         "minor": {
-          "groupName": "all minor dependencies"
+          "automerge": true,
+          "stabilityDays": 7
         },
         "patch": {
           "automerge": true,
-          "groupName": "all patch dependencies"
-        }
+          "stabilityDays": 7
+        },
+        "packageRules": [
+          {
+            "groupName": "ESLint",
+            "packagePatterns": [
+              "^eslint",
+              "^@typescript-eslint/"
+            ]
+          },
+          {
+            "groupName": "renovate",
+            "automerge": true,
+            "packageNames": [
+              "renovate"
+            ]
+          }
+        ]
       }
     }
   },
-  "devDependencies": {
-    "husky": "4.3.8",
-    "lint-staged": "11.2.6",
-    "prettier": "2.2.1",
-    "renovate": "24.62.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,css,md,json}": "prettier --write"
-  },
   "publishConfig": {
     "access": "public"
+  },
+  "lint-staged": {
+    "*.{md,json}": "prettier --write"
   }
 }
