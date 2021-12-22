@@ -1,6 +1,6 @@
 {
   "name": "@locol23/renovate-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Shareable config for Renovate",
   "main": "index.js",
   "files": [
