@@ -6,11 +6,11 @@
 
 ## Setup
 
-Add `@locol23` to `extends` property for your renovate config
+Add `github>locol23/renovate-config` to `extends` property for your renovate config
 
 ```json
 {
-  "extends": ["@locol23"]
+  "extends": ["github>locol23/renovate-config"]
 }
 ```
 
