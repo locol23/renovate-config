@@ -2,10 +2,6 @@
   "name": "@locol23/renovate-config",
   "version": "2.1.0",
   "description": "Shareable config for Renovate",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
     "test": "renovate-config-validator",
     "prepare": "husky install"
@@ -29,59 +25,6 @@
     "lint-staged": "^12.4.3",
     "prettier": "^2.6.2",
     "renovate": "^32.0.6"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base",
-        ":label(renovate)",
-        ":timezone(Asia/Tokyo)",
-        ":noUnscheduledUpdates",
-        ":separatePatchReleases",
-        ":prNotPending"
-      ],
-      "schedule": [
-        "after 9pm",
-        "before 9am"
-      ],
-      "npm": {
-        "extends": [
-          "group:jestPlusTSJest"
-        ],
-        "rangeStrategy": "bump",
-        "major": {
-          "automerge": false,
-          "stabilityDays": 0
-        },
-        "minor": {
-          "automerge": true,
-          "stabilityDays": 7
-        },
-        "patch": {
-          "automerge": true,
-          "stabilityDays": 7
-        },
-        "packageRules": [
-          {
-            "groupName": "ESLint",
-            "packagePatterns": [
-              "^eslint",
-              "^@typescript-eslint/"
-            ]
-          },
-          {
-            "groupName": "renovate",
-            "automerge": true,
-            "packageNames": [
-              "renovate"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "lint-staged": {
     "*.{md,json}": "prettier --write"

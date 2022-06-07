@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "config:base",
+    ":label(renovate)",
+    ":timezone(Asia/Tokyo)",
+    ":noUnscheduledUpdates",
+    ":separatePatchReleases",
+    ":prNotPending"
+  ],
+  "schedule": ["after 9pm", "before 9am"],
+  "npm": {
+    "extends": ["group:jestPlusTSJest"],
+    "rangeStrategy": "bump",
+    "major": {
+      "automerge": false,
+      "stabilityDays": 0
+    },
+    "minor": {
+      "automerge": true,
+      "stabilityDays": 7
+    },
+    "patch": {
+      "automerge": true,
+      "stabilityDays": 7
+    },
+    "packageRules": [
+      {
+        "groupName": "ESLint",
+        "packagePatterns": ["^eslint", "^@typescript-eslint/"]
+      },
+      {
+        "groupName": "renovate",
+        "automerge": true,
+        "packageNames": ["renovate"]
+      }
+    ]
+  }
+}
