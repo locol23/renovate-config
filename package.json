@@ -21,7 +21,7 @@
   "author": "locol23 <locol6622@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "lint-staged": "^12.4.3",
     "prettier": "^2.6.2",
     "renovate": "^32.0.6"
