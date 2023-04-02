@@ -4,7 +4,7 @@
   "description": "Shareable config for Renovate",
   "scripts": {
     "test": "renovate-config-validator",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "homepage": "https://github.com/locol23/renovate-config",
   "repository": {
@@ -28,5 +28,6 @@
   },
   "lint-staged": {
     "*.{yml,yaml,md,json}": "prettier --write"
-  }
+  },
+  "packageManager": "pnpm@7.27.0"
 }
