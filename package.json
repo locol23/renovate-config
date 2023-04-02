@@ -27,6 +27,6 @@
     "renovate": "^32.0.6"
   },
   "lint-staged": {
-    "*.{md,json}": "prettier --write"
+    "*.{yml,yaml,md,json}": "prettier --write"
   }
 }
