@@ -29,5 +29,5 @@
   "lint-staged": {
     "*.{yml,yaml,md,json}": "prettier --write"
   },
-  "packageManager": "pnpm@7.30.5"
+  "packageManager": "pnpm@7.31.0"
 }
