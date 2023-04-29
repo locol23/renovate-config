@@ -24,7 +24,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
-    "renovate": "^35.56.1"
+    "renovate": "^35.57.1"
   },
   "lint-staged": {
     "*.{yml,yaml,md,json}": "prettier --write"
