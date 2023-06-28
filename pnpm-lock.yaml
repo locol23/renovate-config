@@ -4,7 +4,7 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.2.2
   prettier: ^2.8.8
-  renovate: ^35.136.0
+  renovate: ^35.140.0
 
 devDependencies:
   husky: 8.0.3
@@ -1321,7 +1321,7 @@ packages:
       '@octokit/graphql': 5.0.5
       '@octokit/request': 6.2.3
       '@octokit/request-error': 3.0.3
-      '@octokit/types': 9.0.0
+      '@octokit/types': 9.3.2
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -1346,10 +1346,6 @@ packages:
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@octokit/openapi-types/16.0.0:
-    resolution: {integrity: sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==}
     dev: true
 
   /@octokit/openapi-types/18.0.0:
@@ -1428,12 +1424,6 @@ packages:
     resolution: {integrity: sha512-Vm8IddVmhCgU1fxC1eyinpwqzXPEYu0NrYzD3YZjlGjyftdLBTeqNblRC0jmJmgxbJIsQlyogVeGnrNaaMVzIg==}
     dependencies:
       '@octokit/openapi-types': 18.0.0
-    dev: true
-
-  /@octokit/types/9.0.0:
-    resolution: {integrity: sha512-LUewfj94xCMH2rbD5YJ+6AQ4AVjFYTgpp6rboWM5T7N3IsIF65SBEOVcYMGAEzO/kKNiNaW4LoWtoThOhH06gw==}
-    dependencies:
-      '@octokit/openapi-types': 16.0.0
     dev: true
 
   /@octokit/types/9.3.2:
