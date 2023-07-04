@@ -4,7 +4,7 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.2.2
   prettier: ^2.8.8
-  renovate: ^35.143.0
+  renovate: ^35.143.3
 
 devDependencies:
   husky: 8.0.3
@@ -2461,7 +2461,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       slice-ansi: 5.0.0
-      string-width: 5.0.1
+      string-width: 5.1.2
     dev: true
 
   /clipanion/3.2.0-rc.4:
@@ -5116,15 +5116,6 @@ packages:
       emoji-regex: 8.0.0
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
-    dev: true
-
-  /string-width/5.0.1:
-    resolution: {integrity: sha512-5ohWO/M4//8lErlUUtrFy3b11GtNOuMOU0ysKCDXFcfXuuvUXu95akgj/i8ofmaGdN0hCqyl6uu9i8dS/mQp5g==}
-    engines: {node: '>=12'}
-    dependencies:
-      emoji-regex: 9.2.2
-      is-fullwidth-code-point: 4.0.0
-      strip-ansi: 7.0.1
     dev: true
 
   /string-width/5.1.2:
