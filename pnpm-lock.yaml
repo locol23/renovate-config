@@ -4,7 +4,7 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.2.3
   prettier: ^2.8.8
-  renovate: ^36.0.3
+  renovate: ^36.1.15
 
 devDependencies:
   husky: 8.0.3
@@ -123,9 +123,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -169,9 +169,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -216,9 +216,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -262,9 +262,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -323,9 +323,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -368,9 +368,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -409,9 +409,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -453,9 +453,9 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/node-config-provider': 1.0.2
       '@smithy/node-http-handler': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/url-parser': 1.0.2
       '@smithy/util-base64': 1.0.2
       '@smithy/util-body-length-browser': 1.0.2
@@ -476,7 +476,7 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@smithy/property-provider': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -492,7 +492,7 @@ packages:
       '@smithy/credential-provider-imds': 1.0.2
       '@smithy/property-provider': 1.0.2
       '@smithy/shared-ini-file-loader': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     transitivePeerDependencies:
       - aws-crt
@@ -511,7 +511,7 @@ packages:
       '@smithy/credential-provider-imds': 1.0.2
       '@smithy/property-provider': 1.0.2
       '@smithy/shared-ini-file-loader': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     transitivePeerDependencies:
       - aws-crt
@@ -524,7 +524,7 @@ packages:
       '@aws-sdk/types': 3.357.0
       '@smithy/property-provider': 1.0.2
       '@smithy/shared-ini-file-loader': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -537,7 +537,7 @@ packages:
       '@aws-sdk/types': 3.357.0
       '@smithy/property-provider': 1.0.2
       '@smithy/shared-ini-file-loader': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     transitivePeerDependencies:
       - aws-crt
@@ -549,7 +549,7 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@smithy/property-provider': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -591,8 +591,8 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@aws-sdk/util-arn-parser': 3.310.0
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       '@smithy/util-config-provider': 1.0.2
       tslib: 2.6.0
     dev: true
@@ -602,8 +602,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -615,8 +615,8 @@ packages:
       '@aws-crypto/crc32c': 3.0.0
       '@aws-sdk/types': 3.357.0
       '@smithy/is-array-buffer': 1.0.2
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       '@smithy/util-utf8': 1.0.2
       tslib: 2.6.0
     dev: true
@@ -626,8 +626,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -636,7 +636,7 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -645,7 +645,7 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -654,8 +654,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -666,10 +666,10 @@ packages:
       '@aws-sdk/types': 3.357.0
       '@aws-sdk/util-format-url': 3.363.0
       '@smithy/middleware-endpoint': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/signature-v4': 1.0.2
       '@smithy/smithy-client': 1.0.4
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -680,9 +680,9 @@ packages:
       '@aws-sdk/types': 3.357.0
       '@aws-sdk/util-format-url': 3.363.0
       '@smithy/middleware-endpoint': 1.0.3
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/signature-v4': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -692,8 +692,8 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@aws-sdk/util-arn-parser': 3.310.0
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -703,7 +703,7 @@ packages:
     dependencies:
       '@aws-sdk/middleware-signing': 3.363.0
       '@aws-sdk/types': 3.357.0
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -713,9 +713,9 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@smithy/property-provider': 1.0.2
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/signature-v4': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       '@smithy/util-middleware': 1.0.2
       tslib: 2.6.0
     dev: true
@@ -725,7 +725,7 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -735,8 +735,8 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@aws-sdk/util-endpoints': 3.357.0
-      '@smithy/protocol-http': 1.1.0
-      '@smithy/types': 1.1.0
+      '@smithy/protocol-http': 1.1.1
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -750,9 +750,9 @@ packages:
         optional: true
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/protocol-http': 1.1.0
+      '@smithy/protocol-http': 1.1.1
       '@smithy/signature-v4': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -764,7 +764,7 @@ packages:
       '@aws-sdk/types': 3.357.0
       '@smithy/property-provider': 1.0.2
       '@smithy/shared-ini-file-loader': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     transitivePeerDependencies:
       - aws-crt
@@ -806,7 +806,7 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@smithy/querystring-builder': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -821,7 +821,7 @@ packages:
     resolution: {integrity: sha512-fk9ymBUIYbxiGm99Cn+kAAXmvMCWTf/cHAcB79oCXV4ELXdPa9lN5xQhZRFNxLUeXG4OAMEuCAUUuZEj8Fnc1Q==}
     dependencies:
       '@aws-sdk/types': 3.357.0
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       bowser: 2.11.0
       tslib: 2.6.0
     dev: true
@@ -837,7 +837,7 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.357.0
       '@smithy/node-config-provider': 1.0.2
-      '@smithy/types': 1.1.0
+      '@smithy/types': 1.1.1
       tslib: 2.6.0
     dev: true
 
@@ -1666,14 +1666,6 @@ packages:
       tslib: 2.6.0
     dev: true
 
-  /@smithy/protocol-http/1.1.0:
-    resolution: {integrity: sha512-H5y/kZOqfJSqRkwtcAoVbqONmhdXwSgYNJ1Glk5Ry8qlhVVy5qUzD9EklaCH8/XLnoCsLO/F/Giee8MIvaBRkg==}
-    engines: {node: '>=14.0.0'}
-    dependencies:
-      '@smithy/types': 1.1.0
-      tslib: 2.6.0
-    dev: true
-
   /@smithy/protocol-http/1.1.1:
     resolution: {integrity: sha512-mFLFa2sSvlUxm55U7B4YCIsJJIMkA6lHxwwqOaBkral1qxFz97rGffP/mmd4JDuin1EnygiO5eNJGgudiUgmDQ==}
     engines: {node: '>=14.0.0'}
@@ -1733,13 +1725,6 @@ packages:
       '@smithy/middleware-stack': 1.0.2
       '@smithy/types': 1.1.1
       '@smithy/util-stream': 1.0.2
-      tslib: 2.6.0
-    dev: true
-
-  /@smithy/types/1.1.0:
-    resolution: {integrity: sha512-KzmvisMmuwD2jZXuC9e65JrgsZM97y5NpDU7g347oB+Q+xQLU6hQZ5zFNNbEfwwOJHoOvEVTna+dk1h/lW7alw==}
-    engines: {node: '>=14.0.0'}
-    dependencies:
       tslib: 2.6.0
     dev: true
 
