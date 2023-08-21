@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
+    "lint-staged": "^14.0.1",
     "prettier": "^2.8.8",
     "renovate": "^36.42.4"
   },
