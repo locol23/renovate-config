@@ -4,13 +4,13 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   prettier: ^2.8.8
-  renovate: ^37.89.4
+  renovate: ^37.89.5
 
 devDependencies:
   husky: 8.0.3
   lint-staged: 13.3.0
   prettier: 2.8.8
-  renovate: 37.89.4
+  renovate: 37.100.0
 
 packages:
 
@@ -1207,13 +1207,14 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.18.1_@opentelemetry+api@1.7.0
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan/0.33.0_@opentelemetry+api@1.7.0:
-    resolution: {integrity: sha512-i3xfmhajtOEuFO+9yMU/wJiH0tY4VtIlbJKGIKVHFOsoNqPQpG7iUQP01p0FRoje+UB+ZUvs4hU7fCZzwtnC1g==}
+  /@opentelemetry/instrumentation-bunyan/0.34.0_@opentelemetry+api@1.7.0:
+    resolution: {integrity: sha512-UjuvggGrclyn6avTcMAdqLyrrTV26ufB73vPBPlEmA3a2dtYCS07zW82Kacxi5emZDpmHIk6zQE18DqCb/xfpA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.7.0
+      '@opentelemetry/api-logs': 0.45.1
       '@opentelemetry/instrumentation': 0.45.1_@opentelemetry+api@1.7.0
       '@types/bunyan': 1.8.9
     transitivePeerDependencies:
@@ -1512,13 +1513,13 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440/3.0.12:
-    resolution: {integrity: sha512-l5qdcpsS+tpOhPf/lChoCv+Fd52ajMeq7t7oXmmDwBG5Nfuv5P4QVs5v9mP/dxBta/uRCNFnKVJmbFpPHTBrrw==}
+  /@renovatebot/pep440/3.0.14:
+    resolution: {integrity: sha512-ijhB6zyR20xUyhKR9zOy+9wBBAUD6D+LiBjbVMjMTF+8rEfPMA2mTGh+EJ0t44h8ysV41iKNzC0dQmYjxSw9BA==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@renovatebot/ruby-semver/3.0.19:
-    resolution: {integrity: sha512-VuTIcDyC6MDp7G8QCLVY28XlXZKXSe7eSfnweNxwqGrcMKONS5qFtvrj0ZxPo5mM685Z2P8S1f8p0dfdEiH+ow==}
+  /@renovatebot/ruby-semver/3.0.21:
+    resolution: {integrity: sha512-Td3WoH5OE4CVyHuKM7c7aSrjPW49prHe6SLrshzdazEEPkjiPDB5/SznSFRImHzD1ox4LXCTi4hfFH1Necjjhg==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
@@ -2762,12 +2763,12 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
-  /emojibase-regex/15.2.0:
-    resolution: {integrity: sha512-65H5YepRW3gdrghV/Ed9kW3Qry8/qeKJmMlm31nTsOrEZfuAgyr28FmloXpyak86+chR8cukZA7dlafZzrJXbw==}
+  /emojibase-regex/15.3.0:
+    resolution: {integrity: sha512-EBz/292VBF9naBPBsGzkZUccgIv1xJibTXIINl8SezgVRnTCpKJx7MgZcR+UAd2RwjGkRJJZ/lhP7riOFZLicA==}
     dev: true
 
-  /emojibase/15.2.0:
-    resolution: {integrity: sha512-gB6rIVtyJPersQvAo4nOGYPeILMhlcfZdiwCWVeRAtkJ7sm0tExZETGyLhrTQcHvZQhDEYI1vlCeqUhn5gZkQA==}
+  /emojibase/15.3.0:
+    resolution: {integrity: sha512-lFdQb14hoznwDh1xDoOFzkPdeeexmbuJdhUUjDaJZf/+jK+6Z3HkI5hWOemWfEdaMxtTujc1vNRx9DKtdtiOXA==}
     dev: true
 
   /encoding/0.1.13:
@@ -3170,8 +3171,8 @@ packages:
     resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
     dev: true
 
-  /graph-data-structure/3.3.0:
-    resolution: {integrity: sha512-p5z0GZ3tm85kuB0iXFjLpbL9gNSFeDPPOyINhLQm6mVfHbLaj62LF9uB1tymcsxkHqLWLQSqGA0f/4/OepCdxA==}
+  /graph-data-structure/3.5.0:
+    resolution: {integrity: sha512-AAgjRtBZC1acIExgK2otv2LDdcYeZdQFKiEStXRDTyaVs6sUUaGUif05pCczTqAU4ny82NQtM1p5PK7AQEYgRA==}
     dev: true
 
   /grapheme-splitter/1.0.4:
@@ -4415,8 +4416,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+  /prettier/3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -4587,8 +4588,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.89.4:
-    resolution: {integrity: sha512-D6uxyePFW6XaIxwwCzTX8Ulw9B8x3424Hy8yBUSdThA07KnF9jdR7o7dM/bgtNDOQkfmNpyDVlP+QwC6XMDglw==}
+  /renovate/37.100.0:
+    resolution: {integrity: sha512-i41y8+wuMl4kNlU5W//x7C6zW9/6ToTbXDjN3HRKr2sqZ1gsOJRkcCFugACgIi6Um/6JXoY75sR4QsD3SJuIdQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4604,7 +4605,7 @@ packages:
       '@opentelemetry/context-async-hooks': 1.18.1_@opentelemetry+api@1.7.0
       '@opentelemetry/exporter-trace-otlp-http': 0.45.1_@opentelemetry+api@1.7.0
       '@opentelemetry/instrumentation': 0.45.1_@opentelemetry+api@1.7.0
-      '@opentelemetry/instrumentation-bunyan': 0.33.0_@opentelemetry+api@1.7.0
+      '@opentelemetry/instrumentation-bunyan': 0.34.0_@opentelemetry+api@1.7.0
       '@opentelemetry/instrumentation-http': 0.45.1_@opentelemetry+api@1.7.0
       '@opentelemetry/resources': 1.18.1_@opentelemetry+api@1.7.0
       '@opentelemetry/sdk-trace-base': 1.18.1_@opentelemetry+api@1.7.0
@@ -4612,8 +4613,8 @@ packages:
       '@opentelemetry/semantic-conventions': 1.18.1
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.3.10
-      '@renovatebot/pep440': 3.0.12
-      '@renovatebot/ruby-semver': 3.0.19
+      '@renovatebot/pep440': 3.0.14
+      '@renovatebot/ruby-semver': 3.0.21
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.34
       '@types/tmp': 0.2.6
@@ -4639,8 +4640,8 @@ packages:
       editorconfig: 2.0.0
       email-addresses: 5.0.0
       emoji-regex: 10.3.0
-      emojibase: 15.2.0
-      emojibase-regex: 15.2.0
+      emojibase: 15.3.0
+      emojibase-regex: 15.3.0
       extract-zip: 2.0.1
       find-packages: 10.0.4
       find-up: 5.0.0
@@ -4652,7 +4653,7 @@ packages:
       good-enough-parser: 1.1.23
       google-auth-library: 9.4.1
       got: 11.8.6
-      graph-data-structure: 3.3.0
+      graph-data-structure: 3.5.0
       handlebars: 4.7.8
       ignore: 5.3.0
       ini: 4.1.1
@@ -4677,7 +4678,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.1.0
+      prettier: 3.1.1
       redis: 4.6.11
       remark: 13.0.0
       remark-github: 10.1.0
