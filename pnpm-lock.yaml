@@ -4,13 +4,13 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   prettier: ^2.8.8
-  renovate: ^37.116.0
+  renovate: ^37.118.0
 
 devDependencies:
   husky: 8.0.3
   lint-staged: 13.3.0
   prettier: 2.8.8
-  renovate: 37.116.0
+  renovate: 37.128.0
 
 packages:
 
@@ -4177,8 +4177,8 @@ packages:
     dev: true
     optional: true
 
-  /node-html-parser/6.1.11:
-    resolution: {integrity: sha512-FAgwwZ6h0DSDWxfD0Iq1tsDcBCxdJB1nXpLPPxX8YyVWzbfCjKWEzaynF4gZZ/8hziUmp7ZSaKylcn0iKhufUQ==}
+  /node-html-parser/6.1.12:
+    resolution: {integrity: sha512-/bT/Ncmv+fbMGX96XG9g05vFt43m/+SYKIs9oAemQVYyVcZmDAI2Xq/SbNcpOA35eF0Zk2av3Ksf+Xk8Vt8abA==}
     dependencies:
       css-select: 5.1.0
       he: 1.2.0
@@ -4620,8 +4620,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.116.0:
-    resolution: {integrity: sha512-fr5TrA13V7OkJjthx8pH39INFTtqrVir10vbhRfnQfCVLk31tbZMTlZtlte6vZDt5106AZTR4OMwV5h5JoukGQ==}
+  /renovate/37.128.0:
+    resolution: {integrity: sha512-CVhA0fWuqiKCo1MVOG7SnPwAqZg4w11jBxswI/FsjLbLHc1b/swsujbwCzxhTVMvfK5KjGKJwWIFmH12ETIbaQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4703,7 +4703,7 @@ packages:
       moo: 0.5.2
       ms: 2.1.3
       nanoid: 3.3.7
-      node-html-parser: 6.1.11
+      node-html-parser: 6.1.12
       openpgp: 5.11.0
       p-all: 3.0.0
       p-map: 4.0.0
@@ -4719,7 +4719,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.21.0
+      simple-git: 3.22.0
       slugify: 1.6.6
       source-map-support: 0.5.21
       toml-eslint-parser: 0.9.3
@@ -4928,8 +4928,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /simple-git/3.21.0:
-    resolution: {integrity: sha512-oTzw9248AF5bDTMk9MrxsRzEzivMlY+DWH0yWS4VYpMhNLhDWnN06pCtaUyPnqv/FpsdeNmRqmZugMABHRPdDA==}
+  /simple-git/3.22.0:
+    resolution: {integrity: sha512-6JujwSs0ac82jkGjMHiCnTifvf1crOiY/+tfs/Pqih6iow7VrpNKRRNdWm6RtaXpvvv/JGNYhlUtLhGFqHF+Yw==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
