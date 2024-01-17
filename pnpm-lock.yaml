@@ -4,13 +4,13 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   prettier: ^2.8.8
-  renovate: ^37.127.0
+  renovate: ^37.128.2
 
 devDependencies:
   husky: 8.0.3
   lint-staged: 13.3.0
   prettier: 2.8.8
-  renovate: 37.128.0
+  renovate: 37.139.3
 
 packages:
 
@@ -976,8 +976,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json/0.19.2:
-    resolution: {integrity: sha512-gFj36AshWSyPKq/eNjQtMnWj0QM0tPtMulFpQ0FrB+eWj0GvxgWg9d65gGCZ8Y/o33VV/2Kv5l8VlDEYDW2S7Q==}
+  /@cdktf/hcl2json/0.20.1:
+    resolution: {integrity: sha512-pFSs2QfCS0I5qRhO9SI0VK87Zz8ZJK4MO8GlYprEO2s1aXo1VH6WWJw5tFFqMgntbzeci+Xj0kx7VaLgr21cTQ==}
     dependencies:
       fs-extra: 11.2.0
     dev: true
@@ -1162,13 +1162,6 @@ packages:
     resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
     dev: true
 
-  /@opentelemetry/api-logs/0.45.1:
-    resolution: {integrity: sha512-zVGq/k70l+kB/Wuv3O/zhptP2hvDhEbhDu9EtHde1iWZJf3FedeYS/nWVcMBkkyPAjS/JKNk86WN4CBQLGUuOw==}
-    engines: {node: '>=14'}
-    dependencies:
-      '@opentelemetry/api': 1.7.0
-    dev: true
-
   /@opentelemetry/api-logs/0.46.0:
     resolution: {integrity: sha512-+9BcqfiEDGPXEIo+o3tso/aqGM5dGbGwAkGVp3FPpZ8GlkK1YlaKRd9gMVyPaeRATwvO5wYGGnCsAc/sMMM9Qw==}
     engines: {node: '>=14'}
@@ -1214,15 +1207,15 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.19.0_@opentelemetry+api@1.7.0
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan/0.34.0_@opentelemetry+api@1.7.0:
-    resolution: {integrity: sha512-UjuvggGrclyn6avTcMAdqLyrrTV26ufB73vPBPlEmA3a2dtYCS07zW82Kacxi5emZDpmHIk6zQE18DqCb/xfpA==}
+  /@opentelemetry/instrumentation-bunyan/0.34.1_@opentelemetry+api@1.7.0:
+    resolution: {integrity: sha512-+eshbCFr2dkUYO2jCpbYGFC5hs94UCOsQRK1XqNOjeiNvQRtqvKYqk8ARwJBYBX+aW4J02jOliAHQUh/d7gYPg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.7.0
-      '@opentelemetry/api-logs': 0.45.1
-      '@opentelemetry/instrumentation': 0.45.1_@opentelemetry+api@1.7.0
+      '@opentelemetry/api-logs': 0.46.0
+      '@opentelemetry/instrumentation': 0.46.0_@opentelemetry+api@1.7.0
       '@types/bunyan': 1.8.9
     transitivePeerDependencies:
       - supports-color
@@ -1239,22 +1232,6 @@ packages:
       '@opentelemetry/instrumentation': 0.46.0_@opentelemetry+api@1.7.0
       '@opentelemetry/semantic-conventions': 1.19.0
       semver: 7.5.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@opentelemetry/instrumentation/0.45.1_@opentelemetry+api@1.7.0:
-    resolution: {integrity: sha512-V1Cr0g8hSg35lpW3G/GYVZurrhHrQZJdmP68WyJ83f1FDn3iru+/Vnlto9kiOSm7PHhW+pZGdb9Fbv+mkQ31CA==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-    dependencies:
-      '@opentelemetry/api': 1.7.0
-      '@types/shimmer': 1.0.2
-      import-in-the-middle: 1.4.2
-      require-in-the-middle: 7.1.1
-      semver: 7.5.4
-      shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1516,17 +1493,17 @@ packages:
       '@redis/client': 1.5.13
     dev: true
 
-  /@renovatebot/osv-offline-db/1.4.1:
-    resolution: {integrity: sha512-njYO9GQ87wU4Q+lWoQkk+jMWoLaBadc8mcPoYhHNnUwaeX7lOOZkQwNSWV+KWjx1pi5WpGUM592kAinvMH8maA==}
+  /@renovatebot/osv-offline-db/1.5.0:
+    resolution: {integrity: sha512-u/3JUDAYqOilqbevIWEkU+pdEjEmOqHD0lyT39jFuLxDGelOqF0OACaHMtQz7+ATLIekr6NpPcj+2LMTROF8hA==}
     dependencies:
       '@seald-io/nedb': 4.0.3
     dev: true
 
-  /@renovatebot/osv-offline/1.3.11:
-    resolution: {integrity: sha512-ax3vyY3l+AltdOwo+IUHBIJbeWmgWLL1plr7eMVxUacN5/0vo5b/lWutHcGtkxK1MtAxhOsSB+qrp7H9biR2YA==}
+  /@renovatebot/osv-offline/1.4.0:
+    resolution: {integrity: sha512-63/TZ+WXfPi5E3quLFsbAo5WDh7kqWTcGtR2nEt65MSTxmKVNx96HY8yGBfdfMTXQMw/D3FstBNcfVUi97bMPQ==}
     dependencies:
       '@octokit/rest': 20.0.2
-      '@renovatebot/osv-offline-db': 1.4.1
+      '@renovatebot/osv-offline-db': 1.5.0
       adm-zip: 0.5.10
       fs-extra: 11.2.0
       got: 11.8.6
@@ -2383,8 +2360,8 @@ packages:
       safe-json-stringify: 1.2.0
     dev: true
 
-  /cacache/18.0.1:
-    resolution: {integrity: sha512-g4Uf2CFZPaxtJKre6qr4zqLDOOPU7bNVhWjlNhvzc51xaTOx2noMOLhfFkTAqwtrAZAKQUuDfyjitzilpA8WsQ==}
+  /cacache/18.0.2:
+    resolution: {integrity: sha512-r3NU8h/P+4lVUHfeRw1dtgQYar3DZMm4/cm2bZgOvrFC/su7budSOeqh52VJIC4U4iG1WWwV6vRW0znqBvxNuw==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/fs': 3.1.0
@@ -3343,15 +3320,6 @@ packages:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
     dev: true
 
-  /import-in-the-middle/1.4.2:
-    resolution: {integrity: sha512-9WOz1Yh/cvO/p69sxRmhyQwrIGGSp7EIdcb+fFNVi7CzQGQB8U1/1XrKVSbEd/GNOAeM0peJtmi7+qphe7NvAw==}
-    dependencies:
-      acorn: 8.10.0
-      acorn-import-assertions: 1.9.0_acorn@8.10.0
-      cjs-module-lexer: 1.2.3
-      module-details-from-path: 1.0.3
-    dev: true
-
   /import-in-the-middle/1.7.1:
     resolution: {integrity: sha512-1LrZPDtW+atAxH42S6288qyDFNQ2YCty+2mxEPRtfazH6Z5QwkaBSTS2ods7hnVJioF6rkRfNoA6A/MstpFXLg==}
     dependencies:
@@ -3784,7 +3752,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/agent': 2.2.0
-      cacache: 18.0.1
+      cacache: 18.0.2
       http-cache-semantics: 4.1.1
       is-lambda: 1.0.1
       minipass: 7.0.3
@@ -4620,8 +4588,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.128.0:
-    resolution: {integrity: sha512-CVhA0fWuqiKCo1MVOG7SnPwAqZg4w11jBxswI/FsjLbLHc1b/swsujbwCzxhTVMvfK5KjGKJwWIFmH12ETIbaQ==}
+  /renovate/37.139.3:
+    resolution: {integrity: sha512-8Mp87kris8fu8aSlL+vfbQNtDCIucZ/Gt0SHCpiVem/ns7LR57HnqxYUmA15fgiCZrHTeKgpF3ZWym0K258Zlg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4632,19 +4600,19 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.19.2
+      '@cdktf/hcl2json': 0.20.1
       '@opentelemetry/api': 1.7.0
       '@opentelemetry/context-async-hooks': 1.19.0_@opentelemetry+api@1.7.0
       '@opentelemetry/exporter-trace-otlp-http': 0.46.0_@opentelemetry+api@1.7.0
       '@opentelemetry/instrumentation': 0.46.0_@opentelemetry+api@1.7.0
-      '@opentelemetry/instrumentation-bunyan': 0.34.0_@opentelemetry+api@1.7.0
+      '@opentelemetry/instrumentation-bunyan': 0.34.1_@opentelemetry+api@1.7.0
       '@opentelemetry/instrumentation-http': 0.46.0_@opentelemetry+api@1.7.0
       '@opentelemetry/resources': 1.19.0_@opentelemetry+api@1.7.0
       '@opentelemetry/sdk-trace-base': 1.19.0_@opentelemetry+api@1.7.0
       '@opentelemetry/sdk-trace-node': 1.19.0_@opentelemetry+api@1.7.0
       '@opentelemetry/semantic-conventions': 1.19.0
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/osv-offline': 1.3.11
+      '@renovatebot/osv-offline': 1.4.0
       '@renovatebot/pep440': 3.0.17
       '@renovatebot/ruby-semver': 3.0.22
       '@sindresorhus/is': 4.6.0
@@ -4658,7 +4626,7 @@ packages:
       aws4: 1.12.0
       azure-devops-node-api: 12.1.0
       bunyan: 1.8.15
-      cacache: 18.0.1
+      cacache: 18.0.2
       cacheable-lookup: 5.0.4
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
