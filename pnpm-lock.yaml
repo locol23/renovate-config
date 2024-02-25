@@ -4,13 +4,13 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   prettier: ^2.8.8
-  renovate: ^37.194.1
+  renovate: ^37.194.6
 
 devDependencies:
   husky: 8.0.3
   lint-staged: 13.3.0
   prettier: 2.8.8
-  renovate: 37.194.1
+  renovate: 37.213.1
 
 packages:
 
@@ -2296,8 +2296,8 @@ packages:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
     dev: true
 
-  /better-sqlite3/9.4.0:
-    resolution: {integrity: sha512-5kynxekMxSjCMiFyUBLHggFcJkCmiZi6fUkiGz/B5GZOvdRWQJD0klqCx5/Y+bm2AKP7I/DHbSFx26AxjruWNg==}
+  /better-sqlite3/9.4.1:
+    resolution: {integrity: sha512-QpqiQeMI4WkE+dQ68zTMX5OzlPGc7lXIDP1iKUt4Omt9PdaVgzKYxHIJRIzt1E+RUBQoFmkip/IbvzyrxehAIg==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -4711,8 +4711,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.194.1:
-    resolution: {integrity: sha512-t4ET5JFX9E9tAxbBM2PAx3FVpZjyomrS1bR6uz56y85kRCR+T8c1MDFDyUJU6nZl6TERW+WLA/0kZvfkDx01LQ==}
+  /renovate/37.213.1:
+    resolution: {integrity: sha512-Bhk6oRC0H9wMUAfoueDkq9x+RyfN6jtryZQ5sRVyuG9sAZ2tj8Pug0cpz10oCnkwqljNMrrM3fNvAyXu24Or+Q==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4749,7 +4749,7 @@ packages:
       auth-header: 1.0.0
       aws4: 1.12.0
       azure-devops-node-api: 12.4.0
-      better-sqlite3: 9.4.0
+      better-sqlite3: 9.4.1
       bunyan: 1.8.15
       cacache: 18.0.2
       cacheable-lookup: 5.0.4
