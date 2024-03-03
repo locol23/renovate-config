@@ -4,13 +4,13 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   prettier: ^2.8.8
-  renovate: ^37.213.1
+  renovate: ^37.214.0
 
 devDependencies:
   husky: 8.0.3
   lint-staged: 13.3.0
   prettier: 2.8.8
-  renovate: 37.213.1
+  renovate: 37.224.4
 
 packages:
 
@@ -2296,8 +2296,8 @@ packages:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
     dev: true
 
-  /better-sqlite3/9.4.1:
-    resolution: {integrity: sha512-QpqiQeMI4WkE+dQ68zTMX5OzlPGc7lXIDP1iKUt4Omt9PdaVgzKYxHIJRIzt1E+RUBQoFmkip/IbvzyrxehAIg==}
+  /better-sqlite3/9.4.3:
+    resolution: {integrity: sha512-ud0bTmD9O3uWJGuXDltyj3R47Nz0OHX8iqPOT5PMspGqlu/qQFn+5S2eFBUCrySpavTjFXbi4EgrfVvPAHlImw==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -4321,8 +4321,8 @@ packages:
       mimic-fn: 4.0.0
     dev: true
 
-  /openpgp/5.11.0:
-    resolution: {integrity: sha512-hytHsxIPtRhuh6uAmoBUThHSwHSX3imLu7x4453T+xkVqIw49rl22MRD4KQIAQdCDoVdouejzYgcuLmMA/2OAA==}
+  /openpgp/5.11.1:
+    resolution: {integrity: sha512-TynUBPuaSI7dN0gP+A38CjNRLxkOkkptefNanalDQ71BFAKKm+dLbksymSW5bUrB7RcAneMySL/Y+r/TbLpOnQ==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       asn1.js: 5.4.1
@@ -4711,8 +4711,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.213.1:
-    resolution: {integrity: sha512-Bhk6oRC0H9wMUAfoueDkq9x+RyfN6jtryZQ5sRVyuG9sAZ2tj8Pug0cpz10oCnkwqljNMrrM3fNvAyXu24Or+Q==}
+  /renovate/37.224.4:
+    resolution: {integrity: sha512-ZWUltC8tzPHnMjUsNjQdLMtmA3Hn/dJvRBEmii93lwoStJnSRjec5X86mNosfThyPaZnpG1eo2teEBHiAYs7DQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4749,7 +4749,7 @@ packages:
       auth-header: 1.0.0
       aws4: 1.12.0
       azure-devops-node-api: 12.4.0
-      better-sqlite3: 9.4.1
+      better-sqlite3: 9.4.3
       bunyan: 1.8.15
       cacache: 18.0.2
       cacheable-lookup: 5.0.4
@@ -4797,7 +4797,7 @@ packages:
       ms: 2.1.3
       nanoid: 3.3.7
       node-html-parser: 6.1.12
-      openpgp: 5.11.0
+      openpgp: 5.11.1
       p-all: 3.0.0
       p-map: 4.0.0
       p-queue: 6.6.2
