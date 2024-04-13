@@ -4,7 +4,7 @@ specifiers:
   husky: ^8.0.3
   lint-staged: ^13.3.0
   prettier: ^2.8.8
-  renovate: ^37.279.4
+  renovate: ^37.280.0
 
 devDependencies:
   husky: 8.0.3
@@ -1075,7 +1075,7 @@ packages:
     resolution: {integrity: sha512-qhKW8YLIi+Kmc92FQUFGr++DYtkx/1fBv+Thua6baqnjnOsgBYJDCvWZR1YcINuHGOEQt416WOfE+A/oG60NBQ==}
     engines: {node: '>= 18'}
     dependencies:
-      '@octokit/types': 12.3.0
+      '@octokit/types': 12.6.0
       is-plain-object: 5.0.0
       universal-user-agent: 6.0.0
     dev: true
@@ -1087,10 +1087,6 @@ packages:
       '@octokit/request': 8.4.0
       '@octokit/types': 13.4.0
       universal-user-agent: 6.0.0
-    dev: true
-
-  /@octokit/openapi-types/19.0.2:
-    resolution: {integrity: sha512-8li32fUDUeml/ACRp/njCWTsk5t17cfTM1jp9n08pBrqs5cDFJubtjsSnuz56r5Tad6jdEPJld7LxNp9dNcyjQ==}
     dev: true
 
   /@octokit/openapi-types/20.0.0:
@@ -1157,12 +1153,6 @@ packages:
       '@octokit/plugin-paginate-rest': 9.2.1_@octokit+core@5.2.0
       '@octokit/plugin-request-log': 4.0.0_@octokit+core@5.2.0
       '@octokit/plugin-rest-endpoint-methods': 10.4.1_@octokit+core@5.2.0
-    dev: true
-
-  /@octokit/types/12.3.0:
-    resolution: {integrity: sha512-nJ8X2HRr234q3w/FcovDlA+ttUU4m1eJAourvfUUtwAWeqL8AsyRqfnLvVnYn3NFbUnsmzQCzLNdFerPwdmcDQ==}
-    dependencies:
-      '@octokit/openapi-types': 19.0.2
     dev: true
 
   /@octokit/types/12.6.0:
@@ -2423,7 +2413,7 @@ packages:
       fs-minipass: 3.0.1
       glob: 10.3.12
       lru-cache: 10.2.0
-      minipass: 7.0.3
+      minipass: 7.0.4
       minipass-collect: 2.0.1
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
@@ -3854,7 +3844,7 @@ packages:
       cacache: 18.0.2
       http-cache-semantics: 4.1.1
       is-lambda: 1.0.1
-      minipass: 7.0.3
+      minipass: 7.0.4
       minipass-fetch: 3.0.3
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
@@ -4070,7 +4060,7 @@ packages:
     resolution: {integrity: sha512-D7V8PO9oaz7PWGLbCACuI1qEOsq7UKfLotx/C0Aet43fCUB/wfQ7DYeq2oR/svFJGYDHPr38SHATeaj/ZoKHKw==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      minipass: 7.0.3
+      minipass: 7.0.4
     dev: true
 
   /minipass-fetch/3.0.3:
@@ -4124,11 +4114,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
     optional: true
-
-  /minipass/7.0.3:
-    resolution: {integrity: sha512-LhbbwCfz3vsb12j/WkWQPZfKTsgqIe1Nf/ti1pKjYESGLHIVjWU96G9/ljLH4F9mWNVhlQOm0VySdAWzf05dpg==}
-    engines: {node: '>=16 || 14 >=14.17'}
-    dev: true
 
   /minipass/7.0.4:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
