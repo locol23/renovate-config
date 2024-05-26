@@ -4,13 +4,13 @@ specifiers:
   husky: ^9.0.11
   lint-staged: ^13.3.0
   prettier: ^3.2.5
-  renovate: ^37.368.6
+  renovate: ^37.368.7
 
 devDependencies:
   husky: 9.0.11
   lint-staged: 13.3.0
   prettier: 3.2.5
-  renovate: 37.368.6
+  renovate: 37.377.6
 
 packages:
 
@@ -1497,16 +1497,16 @@ packages:
       '@babel/runtime-corejs3': 7.21.0
     dev: true
 
-  /@redis/bloom/1.2.0_@redis+client@1.5.14:
+  /@redis/bloom/1.2.0_@redis+client@1.5.16:
     resolution: {integrity: sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/client/1.5.14:
-    resolution: {integrity: sha512-YGn0GqsRBFUQxklhY7v562VMOP0DcmlrHHs3IV1mFE3cbxe31IITUkqhBcIhVSI/2JqtWAJXg5mjV4aU+zD0HA==}
+  /@redis/client/1.5.16:
+    resolution: {integrity: sha512-X1a3xQ5kEMvTib5fBrHKh6Y+pXbeKXqziYuxOUo1ojQNECg4M5Etd1qqyhMap+lFUOAh8S7UYevgJHOm4A+NOg==}
     engines: {node: '>=14'}
     dependencies:
       cluster-key-slot: 1.1.2
@@ -1514,36 +1514,36 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /@redis/graph/1.1.1_@redis+client@1.5.14:
+  /@redis/graph/1.1.1_@redis+client@1.5.16:
     resolution: {integrity: sha512-FEMTcTHZozZciLRl6GiiIB4zGm5z5F3F6a6FZCyrfxdKOhFlGkiAqlexWMBzCi4DcRoyiOsuLfW+cjlGWyExOw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/json/1.0.6_@redis+client@1.5.14:
+  /@redis/json/1.0.6_@redis+client@1.5.16:
     resolution: {integrity: sha512-rcZO3bfQbm2zPRpqo82XbW8zg4G/w4W3tI7X8Mqleq9goQjAGLL7q/1n1ZX4dXEAmORVZ4s1+uKLaUOg7LrUhw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/search/1.1.6_@redis+client@1.5.14:
+  /@redis/search/1.1.6_@redis+client@1.5.16:
     resolution: {integrity: sha512-mZXCxbTYKBQ3M2lZnEddwEAks0Kc7nauire8q20oA0oA/LoA+E/b5Y5KZn232ztPb1FkIGqo12vh3Lf+Vw5iTw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
-  /@redis/time-series/1.0.5_@redis+client@1.5.14:
+  /@redis/time-series/1.0.5_@redis+client@1.5.16:
     resolution: {integrity: sha512-IFjIgTusQym2B5IZJG3XKr5llka7ey84fw/NOYqESP5WUfQs9zz1ww/9+qoz4ka/S6KcGBodzlCeZ5UImKbscg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.14
+      '@redis/client': 1.5.16
     dev: true
 
   /@renovatebot/kbpgp/3.0.1:
@@ -2762,8 +2762,8 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /commander/12.0.0:
-    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+  /commander/12.1.0:
+    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
     engines: {node: '>=18'}
     dev: true
 
@@ -3525,6 +3525,7 @@ packages:
 
   /glob/6.0.4:
     resolution: {integrity: sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       inflight: 1.0.6
       inherits: 2.0.4
@@ -3563,8 +3564,8 @@ packages:
       moo: 0.5.2
     dev: true
 
-  /google-auth-library/9.9.0:
-    resolution: {integrity: sha512-9l+zO07h1tDJdIHN74SpnWIlNR+OuOemXlWJlLP9pXy6vFtizgpEzMuwJa4lqY9UAdiAv5DVd5ql0Am916I+aA==}
+  /google-auth-library/9.10.0:
+    resolution: {integrity: sha512-ol+oSa5NbcGdDqA+gZ3G3mev59OHBZksBTxY/tYwjtcp1H/scAFwJfSQU9/1RALoyZ7FslNbke8j4i3ipwlyuQ==}
     engines: {node: '>=14'}
     dependencies:
       base64-js: 1.5.1
@@ -5263,15 +5264,15 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis/4.6.13:
-    resolution: {integrity: sha512-MHgkS4B+sPjCXpf+HfdetBwbRz6vCtsceTmw1pHNYJAsYxrfpOP6dz+piJWGos8wqG7qb3vj/Rrc5qOlmInUuA==}
+  /redis/4.6.14:
+    resolution: {integrity: sha512-GrNg/e33HtsQwNXL7kJT+iNFPSwE1IPmd7wzV3j4f2z0EYxZfZE7FVTmUysgAtqQQtg5NXF5SNLR9OdO/UHOfw==}
     dependencies:
-      '@redis/bloom': 1.2.0_@redis+client@1.5.14
-      '@redis/client': 1.5.14
-      '@redis/graph': 1.1.1_@redis+client@1.5.14
-      '@redis/json': 1.0.6_@redis+client@1.5.14
-      '@redis/search': 1.1.6_@redis+client@1.5.14
-      '@redis/time-series': 1.0.5_@redis+client@1.5.14
+      '@redis/bloom': 1.2.0_@redis+client@1.5.16
+      '@redis/client': 1.5.16
+      '@redis/graph': 1.1.1_@redis+client@1.5.16
+      '@redis/json': 1.0.6_@redis+client@1.5.16
+      '@redis/search': 1.1.6_@redis+client@1.5.16
+      '@redis/time-series': 1.0.5_@redis+client@1.5.16
     dev: true
 
   /regenerator-runtime/0.13.11:
@@ -5320,8 +5321,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.368.6:
-    resolution: {integrity: sha512-AG8i/IDWmo3tcTjSWjRJwotZRfg7qIMNqIVqhnwEojunoG9S6Ha+rbZ5d25VPBnxHMdojPqvaLoXV+47FKY+Nw==}
+  /renovate/37.377.6:
+    resolution: {integrity: sha512-7Jvqde08C9su4qw5lj6iKgP0VBAymZqblLv/FW/3XofT2L2Npx44lJQ+G0vmAy53gnZPOJk+mCB/J1v+wzY1QA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
     dependencies:
@@ -5362,7 +5363,7 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 12.0.0
+      commander: 12.1.0
       conventional-commits-detector: 1.0.3
       cron-parser: 4.9.0
       deepmerge: 4.3.1
@@ -5382,7 +5383,7 @@ packages:
       glob: 10.3.15
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.9.0
+      google-auth-library: 9.10.0
       got: 11.8.6
       graph-data-structure: 3.5.0
       handlebars: 4.7.8
@@ -5410,7 +5411,7 @@ packages:
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
       prettier: 3.2.5
-      redis: 4.6.13
+      redis: 4.6.14
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.4.3
@@ -5502,6 +5503,7 @@ packages:
 
   /rimraf/2.4.5:
     resolution: {integrity: sha512-J5xnxTyqaiw06JjMftq7L9ouA448dw/E7dKghkP9WpKNuwmARNNg+Gk8/u5ryb9N/Yo2+z3MCwuqFK/+qPOPfQ==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 6.0.4
