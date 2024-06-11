@@ -4,13 +4,13 @@ specifiers:
   husky: ^9.0.11
   lint-staged: ^13.3.0
   prettier: ^3.3.0
-  renovate: ^37.385.0
+  renovate: ^37.390.0
 
 devDependencies:
   husky: 9.0.11
   lint-staged: 13.3.0
   prettier: 3.3.1
-  renovate: 37.385.0
+  renovate: 37.403.0
 
 packages:
 
@@ -413,7 +413,7 @@ packages:
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.588.0
+      '@aws-sdk/client-sts': 3.588.0_6fpegyginmq73awduve2vaqpou
       '@aws-sdk/core': 3.588.0
       '@aws-sdk/credential-provider-node': 3.588.0_uqkp46734g22kyaj2jhmwb36pa
       '@aws-sdk/middleware-host-header': 3.577.0
@@ -452,55 +452,6 @@ packages:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
-      - aws-crt
-    dev: true
-
-  /@aws-sdk/client-sso-oidc/3.588.0_leflinym5ieepynfpflu4smgni:
-    resolution: {integrity: sha512-CTbgtLSg0y2jIOtESuQKkRIqRe/FQmKuyzFWc+Qy6yGcbk1Pyusfz2BC+GGwpYU+1BlBBSNnLQHpx3XY87+aSA==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@aws-crypto/sha256-browser': 3.0.0
-      '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.588.0
-      '@aws-sdk/core': 3.588.0
-      '@aws-sdk/credential-provider-node': 3.588.0_uqkp46734g22kyaj2jhmwb36pa
-      '@aws-sdk/middleware-host-header': 3.577.0
-      '@aws-sdk/middleware-logger': 3.577.0
-      '@aws-sdk/middleware-recursion-detection': 3.577.0
-      '@aws-sdk/middleware-user-agent': 3.587.0
-      '@aws-sdk/region-config-resolver': 3.587.0
-      '@aws-sdk/types': 3.577.0
-      '@aws-sdk/util-endpoints': 3.587.0
-      '@aws-sdk/util-user-agent-browser': 3.577.0
-      '@aws-sdk/util-user-agent-node': 3.587.0
-      '@smithy/config-resolver': 3.0.1
-      '@smithy/core': 2.1.1
-      '@smithy/fetch-http-handler': 3.0.1
-      '@smithy/hash-node': 3.0.0
-      '@smithy/invalid-dependency': 3.0.0
-      '@smithy/middleware-content-length': 3.0.0
-      '@smithy/middleware-endpoint': 3.0.1
-      '@smithy/middleware-retry': 3.0.3
-      '@smithy/middleware-serde': 3.0.0
-      '@smithy/middleware-stack': 3.0.0
-      '@smithy/node-config-provider': 3.1.0
-      '@smithy/node-http-handler': 3.0.0
-      '@smithy/protocol-http': 4.0.0
-      '@smithy/smithy-client': 3.1.1
-      '@smithy/types': 3.0.0
-      '@smithy/url-parser': 3.0.0
-      '@smithy/util-base64': 3.0.0
-      '@smithy/util-body-length-browser': 3.0.0
-      '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.3
-      '@smithy/util-defaults-mode-node': 3.0.3
-      '@smithy/util-endpoints': 2.0.1
-      '@smithy/util-middleware': 3.0.0
-      '@smithy/util-retry': 3.0.0
-      '@smithy/util-utf8': 3.0.0
-      tslib: 2.6.2
-    transitivePeerDependencies:
-      - '@aws-sdk/client-sts'
       - aws-crt
     dev: true
 
@@ -556,7 +507,7 @@ packages:
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.588.0_leflinym5ieepynfpflu4smgni
+      '@aws-sdk/client-sso-oidc': 3.588.0
       '@aws-sdk/core': 3.588.0
       '@aws-sdk/credential-provider-node': 3.588.0_uqkp46734g22kyaj2jhmwb36pa
       '@aws-sdk/middleware-host-header': 3.577.0
@@ -595,6 +546,55 @@ packages:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
+      - aws-crt
+    dev: true
+
+  /@aws-sdk/client-sts/3.588.0_6fpegyginmq73awduve2vaqpou:
+    resolution: {integrity: sha512-UIMjcUikgG9NIENQxSyJNTHMD8TaTfK6Jjf1iuZSyQRyTrcGy0/xcDxrmwZQFAPkOPUf6w9KqydLkMLcYOBdPQ==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@aws-crypto/sha256-browser': 3.0.0
+      '@aws-crypto/sha256-js': 3.0.0
+      '@aws-sdk/client-sso-oidc': 3.588.0
+      '@aws-sdk/core': 3.588.0
+      '@aws-sdk/credential-provider-node': 3.588.0_uqkp46734g22kyaj2jhmwb36pa
+      '@aws-sdk/middleware-host-header': 3.577.0
+      '@aws-sdk/middleware-logger': 3.577.0
+      '@aws-sdk/middleware-recursion-detection': 3.577.0
+      '@aws-sdk/middleware-user-agent': 3.587.0
+      '@aws-sdk/region-config-resolver': 3.587.0
+      '@aws-sdk/types': 3.577.0
+      '@aws-sdk/util-endpoints': 3.587.0
+      '@aws-sdk/util-user-agent-browser': 3.577.0
+      '@aws-sdk/util-user-agent-node': 3.587.0
+      '@smithy/config-resolver': 3.0.1
+      '@smithy/core': 2.1.1
+      '@smithy/fetch-http-handler': 3.0.1
+      '@smithy/hash-node': 3.0.0
+      '@smithy/invalid-dependency': 3.0.0
+      '@smithy/middleware-content-length': 3.0.0
+      '@smithy/middleware-endpoint': 3.0.1
+      '@smithy/middleware-retry': 3.0.3
+      '@smithy/middleware-serde': 3.0.0
+      '@smithy/middleware-stack': 3.0.0
+      '@smithy/node-config-provider': 3.1.0
+      '@smithy/node-http-handler': 3.0.0
+      '@smithy/protocol-http': 4.0.0
+      '@smithy/smithy-client': 3.1.1
+      '@smithy/types': 3.0.0
+      '@smithy/url-parser': 3.0.0
+      '@smithy/util-base64': 3.0.0
+      '@smithy/util-body-length-browser': 3.0.0
+      '@smithy/util-body-length-node': 3.0.0
+      '@smithy/util-defaults-mode-browser': 3.0.3
+      '@smithy/util-defaults-mode-node': 3.0.3
+      '@smithy/util-endpoints': 2.0.1
+      '@smithy/util-middleware': 3.0.0
+      '@smithy/util-retry': 3.0.0
+      '@smithy/util-utf8': 3.0.0
+      tslib: 2.6.2
+    transitivePeerDependencies:
+      - '@aws-sdk/client-sso-oidc'
       - aws-crt
     dev: true
 
@@ -1687,12 +1687,12 @@ packages:
       '@seald-io/nedb': 4.0.4
     dev: true
 
-  /@renovatebot/osv-offline/1.5.5:
-    resolution: {integrity: sha512-jZYVZww5l9+4Xaa+wS/Hc+zsezO229tEoorhBa+buseKMUtYQxNI0RAc/n2AuWYjqWYr4qL5rNg+QcMmwqj/Kg==}
+  /@renovatebot/osv-offline/1.5.7:
+    resolution: {integrity: sha512-w44ydBUa4bPzfRLeKal8pgZSfP0K2nji9G2dPf/yk0gm5oPZa0OxVea2Ku1hhgYN6UMj0Qqyx8y8ssAOH8u0tg==}
     dependencies:
       '@octokit/rest': 20.1.1
       '@renovatebot/osv-offline-db': 1.6.0
-      adm-zip: 0.5.12
+      adm-zip: 0.5.14
       fs-extra: 11.2.0
       got: 11.8.6
       luxon: 3.4.4
@@ -2417,9 +2417,9 @@ packages:
     hasBin: true
     dev: true
 
-  /adm-zip/0.5.12:
-    resolution: {integrity: sha512-6TVU49mK6KZb4qG6xWaaM4C7sA/sgUMLy/JYMOzkcp3BvVLpW0fXDFQiIzAuxFCt/2+xD7fNIiPFAoLZPhVNLQ==}
-    engines: {node: '>=6.0'}
+  /adm-zip/0.5.14:
+    resolution: {integrity: sha512-DnyqqifT4Jrcvb8USYjp6FHtBpEIz1mnXu6pTRHZ0RL69LbQYiO+0lDFg5+OKA7U29oWSs3a/i8fhn8ZcceIWg==}
+    engines: {node: '>=12.0'}
     dev: true
 
   /agent-base/7.1.0:
@@ -3168,12 +3168,12 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
-  /emojibase-regex/15.3.0:
-    resolution: {integrity: sha512-EBz/292VBF9naBPBsGzkZUccgIv1xJibTXIINl8SezgVRnTCpKJx7MgZcR+UAd2RwjGkRJJZ/lhP7riOFZLicA==}
+  /emojibase-regex/15.3.1:
+    resolution: {integrity: sha512-r+uRiuWvLdo2C8RAID7zhzNpwh3DjxM4hDP7pI096X/gjBCtBu0nH1iLXdLq4D5KWA5ZT/dJmexmUlovTef7wQ==}
     dev: true
 
-  /emojibase/15.3.0:
-    resolution: {integrity: sha512-lFdQb14hoznwDh1xDoOFzkPdeeexmbuJdhUUjDaJZf/+jK+6Z3HkI5hWOemWfEdaMxtTujc1vNRx9DKtdtiOXA==}
+  /emojibase/15.3.1:
+    resolution: {integrity: sha512-GNsjHnG2J3Ktg684Fs/vZR/6XpOSkZPMAv85EHrr6br2RN2cJNwdS4am/3YSK3y+/gOv2kmoK3GGdahXdMxg2g==}
     dev: true
 
   /encoding/0.1.13:
@@ -4892,8 +4892,8 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
-  /node-gyp/10.0.1:
-    resolution: {integrity: sha512-gg3/bHehQfZivQVfqIyy8wTdSymF9yTyP4CJifK73imyNMU8AIGQE2pUa7dNWfmMeG9cDVF2eehiRMv0LC1iAg==}
+  /node-gyp/10.1.0:
+    resolution: {integrity: sha512-B4J5M1cABxPc5PwfjhbV5hoy2DP9p8lFXASnEN6hugXOa61416tnTZ29x9sSwAd0o99XNIcpvDDy1swAExsVKA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     hasBin: true
     dependencies:
@@ -5229,12 +5229,6 @@ packages:
     dev: true
     optional: true
 
-  /prettier/3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
-
   /prettier/3.3.1:
     resolution: {integrity: sha512-7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==}
     engines: {node: '>=14'}
@@ -5318,13 +5312,13 @@ packages:
     dev: true
     optional: true
 
-  /re2/1.20.11:
-    resolution: {integrity: sha512-OsGSxGYXQE3Ha9u+YE/bUYKr0BP6tEnSCcwgq7kQzRzLSYXPJQeYKUR1Hung/4RkIje2f2zYjgyr4nL9eeW18g==}
+  /re2/1.20.12:
+    resolution: {integrity: sha512-pfCHx+j0agxahWorhQZ2hyaZh/LH2e/vpoAilggksI3fFt+62oF0AY7UP7uvmpWleYLy6UoBTz4r/Kif0LfB/g==}
     requiresBuild: true
     dependencies:
       install-artifact-from-github: 1.3.5
       nan: 2.19.0
-      node-gyp: 10.0.1
+      node-gyp: 10.1.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5443,8 +5437,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/37.385.0:
-    resolution: {integrity: sha512-ubfI9wsAE97GySfmdDp0yNX3w0YtbbIybElBeh8hxiAbYU/yeQM5yljCWPKz0ObSb7rJX0bVY3c8m3u4O+RELg==}
+  /renovate/37.403.0:
+    resolution: {integrity: sha512-6Xtv3BXjIn2FRFIpPuvN0FnefeXFCT98B+q2ZOlfcSZRp5g2bF/oICTLJ8ydgzNx4PCzKIDhHgXUrlW81fyixg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
     dependencies:
@@ -5468,7 +5462,7 @@ packages:
       '@opentelemetry/semantic-conventions': 1.24.1
       '@qnighy/marshal': 0.1.3
       '@renovatebot/kbpgp': 3.0.1
-      '@renovatebot/osv-offline': 1.5.5
+      '@renovatebot/osv-offline': 1.5.7
       '@renovatebot/pep440': 3.0.20
       '@renovatebot/ruby-semver': 3.0.23
       '@sindresorhus/is': 4.6.0
@@ -5495,8 +5489,8 @@ packages:
       editorconfig: 2.0.0
       email-addresses: 5.0.0
       emoji-regex: 10.3.0
-      emojibase: 15.3.0
-      emojibase-regex: 15.3.0
+      emojibase: 15.3.1
+      emojibase-regex: 15.3.1
       extract-zip: 2.0.1
       find-packages: 10.0.4
       find-up: 5.0.0
@@ -5533,7 +5527,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.2.5
+      prettier: 3.3.1
       redis: 4.6.14
       remark: 13.0.0
       remark-github: 10.1.0
@@ -5557,7 +5551,7 @@ packages:
     optionalDependencies:
       better-sqlite3: 9.6.0
       openpgp: 5.11.1
-      re2: 1.20.11
+      re2: 1.20.12
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
