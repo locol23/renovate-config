@@ -4,7 +4,7 @@ specifiers:
   husky: ^9.0.11
   lint-staged: ^13.3.0
   prettier: ^3.3.2
-  renovate: ^37.413.2
+  renovate: ^37.413.3
 
 devDependencies:
   husky: 9.0.11
@@ -3183,7 +3183,7 @@ packages:
     engines: {node: '>=0.10'}
     requiresBuild: true
     dependencies:
-      nan: 2.19.0
+      nan: 2.20.0
     dev: true
     optional: true
 
@@ -4898,11 +4898,6 @@ packages:
       mkdirp: 0.5.5
       ncp: 2.0.0
       rimraf: 2.4.5
-    dev: true
-    optional: true
-
-  /nan/2.19.0:
-    resolution: {integrity: sha512-nO1xXxfh/RWNxfd/XPfbIfFk5vgLsAxUR9y5O0cHMJu/AW9U95JLXqthYHjEp+8gQ5p96K9jUp8nbVOxCdRbtw==}
     dev: true
     optional: true
 
