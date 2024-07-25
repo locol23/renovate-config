@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  husky: ^9.1.0
+  husky: ^9.1.1
   lint-staged: ^13.3.0
   prettier: ^3.3.3
   renovate: ^37.432.0
