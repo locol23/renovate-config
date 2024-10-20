@@ -4,13 +4,13 @@ specifiers:
   husky: ^9.1.6
   lint-staged: ^13.3.0
   prettier: ^3.3.3
-  renovate: ^38.119.0
+  renovate: ^38.120.1
 
 devDependencies:
   husky: 9.1.6
   lint-staged: 13.3.0
   prettier: 3.3.3
-  renovate: 38.119.0
+  renovate: 38.128.3
 
 packages:
 
@@ -2624,6 +2624,7 @@ packages:
 
   /boolean/3.1.4:
     resolution: {integrity: sha512-3hx0kwU3uzG6ReQ3pnaFQPSktpBw6RHN3/ivDKEuU8g1XSfafowyvDnadjv1xp8IZqhtSukxlwv9bF6FhX8m0w==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: true
 
   /bowser/2.11.0:
@@ -3604,8 +3605,8 @@ packages:
       moo: 0.5.2
     dev: true
 
-  /google-auth-library/9.14.1:
-    resolution: {integrity: sha512-Rj+PMjoNFGFTmtItH7gHfbHpGVSb3vmnGK3nwNBqxQF9NoBpttSZI/rc0WiM63ma2uGDQtYEkMHkK9U6937NiA==}
+  /google-auth-library/9.14.2:
+    resolution: {integrity: sha512-R+FRIfk1GBo3RdlRYWPdwk8nmtVUOn6+BkDomAC46KoU8kzXzE1HLmOasSCbWUByMMAGkknVF0G5kQ69Vj7dlA==}
     engines: {node: '>=14'}
     dependencies:
       base64-js: 1.5.1
@@ -5401,8 +5402,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/38.119.0:
-    resolution: {integrity: sha512-5WTw66Ppa7T9wL1EoJKbBCvrU9Xt1BRQ+9LzM/iFB2rs3HX0cVS6ro4AgXreVhG+WhngwTwwTPzWngUJvQTogw==}
+  /renovate/38.128.3:
+    resolution: {integrity: sha512-V1YU2t1w50sZf4/T9lYD3wrw32iW/H/GuNOGspWND6Z0w8WIYf+x5Ekw4dOSXhGFvUYYlquUMwgVjPCLFvTXXg==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
     dependencies:
@@ -5466,7 +5467,7 @@ packages:
       glob: 11.0.0
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.14.1
+      google-auth-library: 9.14.2
       got: 11.8.6
       graph-data-structure: 3.5.0
       handlebars: 4.7.8
