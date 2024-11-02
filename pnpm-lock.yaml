@@ -4,7 +4,7 @@ specifiers:
   husky: ^9.1.6
   lint-staged: ^13.3.0
   prettier: ^3.3.3
-  renovate: ^38.131.1
+  renovate: ^38.131.2
 
 devDependencies:
   husky: 9.1.6
