@@ -4,7 +4,7 @@ specifiers:
   husky: ^9.1.7
   lint-staged: ^13.3.0
   prettier: ^3.4.2
-  renovate: ^39.133.4
+  renovate: ^39.145.1
 
 devDependencies:
   husky: 9.1.7
@@ -108,7 +108,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -157,7 +157,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -205,7 +205,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -255,7 +255,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -304,7 +304,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -367,7 +367,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -415,7 +415,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -775,7 +775,7 @@ packages:
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.3
       '@smithy/middleware-retry': 4.0.4
-      '@smithy/middleware-serde': 4.0.1
+      '@smithy/middleware-serde': 4.0.2
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.2
@@ -1862,14 +1862,6 @@ packages:
       '@smithy/util-retry': 4.0.1
       tslib: 2.8.1
       uuid: 9.0.1
-    dev: true
-
-  /@smithy/middleware-serde/4.0.1:
-    resolution: {integrity: sha512-Fh0E2SOF+S+P1+CsgKyiBInAt3o2b6Qk7YOp2W0Qx2XnfTdfMuSDKUEcnrtpxCzgKJnqXeLUZYqtThaP0VGqtA==}
-    engines: {node: '>=18.0.0'}
-    dependencies:
-      '@smithy/types': 4.1.0
-      tslib: 2.8.1
     dev: true
 
   /@smithy/middleware-serde/4.0.2:
