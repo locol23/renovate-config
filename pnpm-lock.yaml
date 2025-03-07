@@ -4,13 +4,13 @@ specifiers:
   husky: ^9.1.7
   lint-staged: ^13.3.0
   prettier: ^3.5.2
-  renovate: ^39.182.3
+  renovate: ^39.182.5
 
 devDependencies:
   husky: 9.1.7
   lint-staged: 13.3.0
   prettier: 3.5.2
-  renovate: 39.182.3
+  renovate: 39.191.0
 
 packages:
 
@@ -2761,8 +2761,8 @@ packages:
     engines: {node: '>=18.0'}
     dev: true
 
-  /cronstrue/2.54.0:
-    resolution: {integrity: sha512-vyp5NklDxA5MjPfQgkn0bA+0vRQe7Q9keX7RPdV6rMgd7LtDvbuKgnT+3T5ZAX16anSP5HmahcRp8mziXsLfaw==}
+  /cronstrue/2.55.0:
+    resolution: {integrity: sha512-ZsBZNtQWb0Rk6CNGJlzpPBYqNE7t93Aez5ZCExLihGwmIpE5qThSTDQzDV8Z1Nw6ksmLkwI98nPKyciZ5sH7dw==}
     hasBin: true
     dev: true
 
@@ -3455,8 +3455,8 @@ packages:
     resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
     dev: true
 
-  /graph-data-structure/4.3.1:
-    resolution: {integrity: sha512-S+Qp6xtMb4AAWsixMHShDx/X/RYaWQMvs+IksTW6jPyamRzx7xILfOdJ+qPfcbcteZeKa7KDRqeEQv+jHlrBmw==}
+  /graph-data-structure/4.4.0:
+    resolution: {integrity: sha512-eQ/BL0WiwDQKADavJ2e72/5PFAaXoQa2nQ3YQa5v25FgwJOp13DhXoYQP0Q4QlepPEKZfJyab/xMrmJaKYdj/A==}
     dev: true
 
   /grapheme-splitter/1.0.4:
@@ -4867,12 +4867,6 @@ packages:
     dev: true
     optional: true
 
-  /prettier/3.5.1:
-    resolution: {integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
-
   /prettier/3.5.2:
     resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
@@ -5095,8 +5089,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/39.182.3:
-    resolution: {integrity: sha512-uu19iFtbse7iiwzYWKHKYDlQSxGSFl45JnNnuRHm4umpjvStoHJ7AJM8EzcwrnDXQ8r72FM7Ni+eb3fapYly5A==}
+  /renovate/39.191.0:
+    resolution: {integrity: sha512-w0boGpjF/LM3hBW5db+B5Fn3q6UzpgktJTYamuyud5WE65VEMIEzYGAVqLpFjg6S5ebS+fj7f52sj40VgJHCYg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
@@ -5142,7 +5136,7 @@ packages:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.54.0
+      cronstrue: 2.55.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -5163,7 +5157,7 @@ packages:
       good-enough-parser: 1.1.23
       google-auth-library: 9.15.1
       got: 11.8.6
-      graph-data-structure: 4.3.1
+      graph-data-structure: 4.4.0
       handlebars: 4.7.8
       ignore: 7.0.3
       ini: 5.0.0
@@ -5187,7 +5181,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.5.1
+      prettier: 3.5.2
       protobufjs: 7.4.0
       punycode: 2.3.1
       redis: 4.7.0
