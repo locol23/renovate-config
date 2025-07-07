@@ -1,38 +1,98 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     ":label(renovate)",
     ":timezone(Asia/Tokyo)",
     ":noUnscheduledUpdates",
     ":separatePatchReleases",
-    ":prNotPending"
+    ":prNotPending",
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    ":automergeRequireAllStatusChecks",
+    "group:monorepos",
+    "group:recommended",
+    "replacements:all",
+    "workarounds:all"
   ],
   "schedule": ["after 9pm", "before 9am"],
-  "npm": {
-    "extends": ["group:jestPlusTSJest"],
-    "rangeStrategy": "bump",
-    "major": {
-      "automerge": false,
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 2,
+  "platformAutomerge": true,
+  "rangeStrategy": "bump",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "schedule": ["at any time"]
+  },
+  "major": {
+    "automerge": false,
+    "stabilityDays": 3
+  },
+  "minor": {
+    "automerge": true,
+    "stabilityDays": 7
+  },
+  "patch": {
+    "automerge": true,
+    "stabilityDays": 3
+  },
+  "packageRules": [
+    {
+      "groupName": "ESLint",
+      "packagePatterns": ["^eslint", "^@typescript-eslint/"]
+    },
+    {
+      "groupName": "renovate",
+      "automerge": true,
+      "packageNames": ["renovate"]
+    },
+    {
+      "groupName": "React",
+      "packagePatterns": ["^react", "^@types/react"]
+    },
+    {
+      "groupName": "Next.js",
+      "packagePatterns": ["^next", "^@next/"]
+    },
+    {
+      "groupName": "TypeScript",
+      "packagePatterns": ["^typescript", "^@types/"]
+    },
+    {
+      "groupName": "Node.js",
+      "packagePatterns": ["^@types/node"]
+    },
+    {
+      "groupName": "DevDependencies",
+      "depTypes": ["devDependencies"],
+      "automerge": true,
+      "minor": {
+        "stabilityDays": 3
+      },
+      "patch": {
+        "stabilityDays": 1
+      }
+    },
+    {
+      "groupName": "Security updates",
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["patch"],
+      "matchCurrentVersion": "/^.*[.-](security|sec|vuln|cve).*$/",
+      "automerge": true,
+      "schedule": ["at any time"],
       "stabilityDays": 0
     },
-    "minor": {
-      "automerge": true,
+    {
+      "groupName": "Major updates",
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["major-update"],
+      "automerge": false,
       "stabilityDays": 7
     },
-    "patch": {
+    {
+      "groupName": "Pin dependencies",
+      "matchUpdateTypes": ["pin"],
       "automerge": true,
-      "stabilityDays": 7
-    },
-    "packageRules": [
-      {
-        "groupName": "ESLint",
-        "packagePatterns": ["^eslint", "^@typescript-eslint/"]
-      },
-      {
-        "groupName": "renovate",
-        "automerge": true,
-        "packageNames": ["renovate"]
-      }
-    ]
-  }
+      "stabilityDays": 0
+    }
+  ]
 }
