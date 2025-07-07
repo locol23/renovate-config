@@ -21,6 +21,7 @@
   "rangeStrategy": "bump",
   "vulnerabilityAlerts": {
     "enabled": true,
+    "labels": ["security"],
     "schedule": ["at any time"]
   },
   "major": {
