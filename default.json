@@ -24,18 +24,6 @@
     "labels": ["security"],
     "schedule": ["at any time"]
   },
-  "major": {
-    "automerge": false,
-    "stabilityDays": 3
-  },
-  "minor": {
-    "automerge": true,
-    "stabilityDays": 7
-  },
-  "patch": {
-    "automerge": true,
-    "stabilityDays": 3
-  },
   "packageRules": [
     {
       "groupName": "ESLint",
@@ -63,6 +51,20 @@
       "packagePatterns": ["^@types/node"]
     },
     {
+      "groupName": "Patch updates",
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["patch-update"],
+      "automerge": true,
+      "stabilityDays": 3
+    },
+    {
+      "groupName": "Minor updates",
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["minor-update"],
+      "automerge": true,
+      "stabilityDays": 7
+    },
+    {
       "groupName": "DevDependencies",
       "depTypes": ["devDependencies"],
       "automerge": true,
@@ -74,15 +76,6 @@
       }
     },
     {
-      "groupName": "Security updates",
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["patch"],
-      "matchCurrentVersion": "/^.*[.-](security|sec|vuln|cve).*$/",
-      "automerge": true,
-      "schedule": ["at any time"],
-      "stabilityDays": 0
-    },
-    {
       "groupName": "Major updates",
       "matchUpdateTypes": ["major"],
       "addLabels": ["major-update"],
@@ -90,9 +83,11 @@
       "stabilityDays": 7
     },
     {
-      "groupName": "Pin dependencies",
-      "matchUpdateTypes": ["pin"],
+      "groupName": "Security updates",
+      "matchPackagePatterns": ["*"],
+      "matchCurrentVersion": "/^.*[.-](security|sec|vuln|cve).*$/",
       "automerge": true,
+      "schedule": ["at any time"],
       "stabilityDays": 0
     }
   ]
