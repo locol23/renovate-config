@@ -1,10 +1,10 @@
 {
   "name": "@locol23/renovate-config",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Shareable config for Renovate",
   "scripts": {
     "test": "renovate-config-validator",
-    "postinstall": "husky install"
+    "prepare": "husky"
   },
   "homepage": "https://github.com/locol23/renovate-config",
   "repository": {
@@ -21,10 +21,10 @@
   "author": "locol23 <locol6622@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^9.1.7",
-    "lint-staged": "^16.1.2",
-    "prettier": "^3.6.2",
-    "renovate": "^41.23.3"
+    "husky": "9.1.7",
+    "lint-staged": "16.1.2",
+    "prettier": "3.6.2",
+    "renovate": "41.23.3"
   },
   "lint-staged": {
     "*.{yml,yaml,md,json}": "prettier --write"
