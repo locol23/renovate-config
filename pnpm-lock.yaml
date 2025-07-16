@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       renovate:
-        specifier: 41.32.0
-        version: 41.32.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.32.3
+        version: 41.32.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -539,12 +539,12 @@ packages:
     resolution: {integrity: sha512-Uj52QvCuIr9qwvbPR3fymQFMwn0MIKItZrEKywNoSF7K4UVfrtBW3DGVQ9KZ2D5tFR3LgrlPdhNSYEkEVAQ4OA==}
     engines: {node: ^20.9.0 || ^22.11.0, pnpm: ^9.0.0}
 
-  '@renovatebot/osv-offline-db@1.7.3':
-    resolution: {integrity: sha512-xhFTlmZhP60n44d3voXM0WF09cJM59Ua1WhcfSYh1AiafKbTqiXQcfbDLoneLAGjYn5ZsSaN1/uIDJbGULTDfw==}
+  '@renovatebot/osv-offline-db@1.7.4':
+    resolution: {integrity: sha512-TyrARTT/m1NK/5Ir3eC9U6iL0XMkKYkivuO8kFCVEGUdrTXvVHwn74K5V7ZPNtC1Ye0qRbKN3fVz+b4uTtlhLQ==}
     engines: {node: '>=18.12.0'}
 
-  '@renovatebot/osv-offline@1.6.5':
-    resolution: {integrity: sha512-WtGzUvr1QgQZCxoeSqDcLI16otvaPzIUq/Mn+LkZZtX4pRxJ5SIiL0/Eiirc2ngAIWi2ihvnG9DHvRBK8trK2g==}
+  '@renovatebot/osv-offline@1.6.6':
+    resolution: {integrity: sha512-xyhxVMGTk95b9nJte9Br1iu2mrkbPVnc7XXE1Klpnjc3hy0B7j9YXlhZzEgvWlVQ21/WmNuMft0/QCaLgFABrQ==}
     engines: {node: '>=18.12.0'}
 
   '@renovatebot/pep440@4.1.0':
@@ -558,8 +558,8 @@ packages:
   '@seald-io/binary-search-tree@1.0.3':
     resolution: {integrity: sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==}
 
-  '@seald-io/nedb@4.1.1':
-    resolution: {integrity: sha512-u7fVfzKQ/3ZaIOnYQONf2lPZtGUeQtMPjfcaQkCw/GZv5dzn20qKW6sfN0NkVbr0ksJMlWcFXNGcXYsQSb1a1g==}
+  '@seald-io/nedb@4.1.2':
+    resolution: {integrity: sha512-bDr6TqjBVS2rDyYM9CPxAnotj5FuNL9NF8o7h7YyFXM7yruqT4ddr+PkSb2mJvvw991bqdftazkEo38gykvaww==}
 
   '@sindresorhus/is@4.6.0':
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
@@ -1284,8 +1284,8 @@ packages:
   ecdsa-sig-formatter@1.0.11:
     resolution: {integrity: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==}
 
-  editorconfig@3.0.0:
-    resolution: {integrity: sha512-cU9vLVQ1YmDmLL047KkgQ3Yv9jSI6ZlqW4XjEdG0RrFhz7kYQ5lxD7SfhQci8g1TQu9iMA+54rRLe6yvWxXxcA==}
+  editorconfig@3.0.1:
+    resolution: {integrity: sha512-k5NZM2XNIJfH/omUv0SRYaiLae4VRwg1ILW6xLOjuP4AQGAGcvzNij5imJ+m1rbzDIH0ov6EbH53BW96amFXpQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2510,8 +2510,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.32.0:
-    resolution: {integrity: sha512-GDUSFwJKeSWOL05bVEaGsghMq6ICcYkcWvcD0P3UfxgR0GhKYJaJP/TzxnoGvHXcTy3staq/TyHjmKvsyVUyzw==}
+  renovate@41.32.3:
+    resolution: {integrity: sha512-IVEubtQRTp0vwkU0q1nFRTgVMvLXulZuH7+PeEtip7mfFwJBeweqEFHEld7BXYDwlFm+eqHUE9s4Rrxo1ZLQxA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3049,8 +3049,8 @@ packages:
     resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
     engines: {node: '>=12.20'}
 
-  zod@3.25.74:
-    resolution: {integrity: sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==}
+  zod@3.25.75:
+    resolution: {integrity: sha512-OhpzAmVzabPOL6C3A3gpAifqr9MqihV/Msx3gor2b2kviCgcb+HM9SEOpMWwwNp9MRunWnhtAKUoo0AHhjyPPg==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -4205,7 +4205,7 @@ snapshots:
       fs-extra: 11.3.0
       toml-eslint-parser: 0.10.0
       upath: 2.0.1
-      zod: 3.25.74
+      zod: 3.25.75
 
   '@renovatebot/kbpgp@4.0.1':
     dependencies:
@@ -4222,13 +4222,13 @@ snapshots:
       triplesec: 4.0.3
       tweetnacl: 1.0.3
 
-  '@renovatebot/osv-offline-db@1.7.3':
+  '@renovatebot/osv-offline-db@1.7.4':
     dependencies:
-      '@seald-io/nedb': 4.1.1
+      '@seald-io/nedb': 4.1.2
 
-  '@renovatebot/osv-offline@1.6.5':
+  '@renovatebot/osv-offline@1.6.6':
     dependencies:
-      '@renovatebot/osv-offline-db': 1.7.3
+      '@renovatebot/osv-offline-db': 1.7.4
       adm-zip: 0.5.16
       fs-extra: 11.3.0
       got: 11.8.6
@@ -4240,7 +4240,7 @@ snapshots:
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
-  '@seald-io/nedb@4.1.1':
+  '@seald-io/nedb@4.1.2':
     dependencies:
       '@seald-io/binary-search-tree': 1.0.3
       localforage: 1.10.0
@@ -5114,7 +5114,7 @@ snapshots:
     dependencies:
       safe-buffer: 5.2.1
 
-  editorconfig@3.0.0:
+  editorconfig@3.0.1:
     dependencies:
       '@one-ini/wasm': 0.2.0
       commander: 14.0.0
@@ -6552,7 +6552,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.32.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.32.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.840.0
       '@aws-sdk/client-ec2': 3.840.0
@@ -6582,7 +6582,7 @@ snapshots:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
-      '@renovatebot/osv-offline': 1.6.5
+      '@renovatebot/osv-offline': 1.6.6
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 7.0.2
@@ -6606,7 +6606,7 @@ snapshots:
       dequal: 2.0.3
       detect-indent: 7.0.1
       diff: 8.0.2
-      editorconfig: 3.0.0
+      editorconfig: 3.0.1
       email-addresses: 5.0.0
       emoji-regex: 10.4.0
       emojibase: 16.0.0
@@ -6670,7 +6670,7 @@ snapshots:
       vuln-vects: 1.1.0
       xmldoc: 2.0.2
       yaml: 2.8.0
-      zod: 3.25.74
+      zod: 3.25.75
     optionalDependencies:
       better-sqlite3: 12.2.0
       openpgp: 6.1.1
@@ -7263,6 +7263,6 @@ snapshots:
 
   yocto-queue@1.2.1: {}
 
-  zod@3.25.74: {}
+  zod@3.25.75: {}
 
   zwitch@2.0.4: {}
