@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       renovate:
-        specifier: 41.91.4
-        version: 41.91.4(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.93.3
+        version: 41.93.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1558,8 +1558,8 @@ packages:
     resolution: {integrity: sha512-QUcQZutczESpdo2w9BMG6VpLFoq9ix7ER5HLM1mAdZdri2F3eISkCb8ep84W6YOo0grYWJdyT/8JkYqGjQfSSQ==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
 
-  google-auth-library@10.2.1:
-    resolution: {integrity: sha512-HMxFl2NfeHYnaL1HoRIN1XgorKS+6CDaM+z9LSSN+i/nKDDL4KFFEWogMXu7jV4HZQy2MsxpY+wA5XIf3w410A==}
+  google-auth-library@10.3.0:
+    resolution: {integrity: sha512-ylSE3RlCRZfZB56PFJSfUCuiuPq83Fx8hqu1KPWGK8FVdSaxlp/qkeMMX/DT/18xkwXIHvXEXkZsljRwfrdEfQ==}
     engines: {node: '>=18'}
 
   google-logging-utils@0.0.2:
@@ -2325,8 +2325,8 @@ packages:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
     engines: {node: '>=18'}
 
-  openpgp@6.2.0:
-    resolution: {integrity: sha512-zKbgazxMeGrTqUEWicKufbdcjv2E0om3YVxw+I3hRykp8ODp+yQOJIDqIr1UXJjP8vR2fky3bNQwYoQXyFkYMA==}
+  openpgp@6.2.1:
+    resolution: {integrity: sha512-5vkqxQWgyrfY0shygqJTaCoa4SbPdjrpmtfREyXBBDrXjoRT25edEMQbdKH5/WxDXlLVn9TxPsVrKP72Jjuz2A==}
     engines: {node: '>= 18.0.0'}
 
   p-all@5.0.0:
@@ -2565,8 +2565,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.91.4:
-    resolution: {integrity: sha512-gRYSmkSa75P5QfIdCBUMoVDLoNH8w+ZcOV+RbFIICQgx8Gv51qHekKjgTV6tL6IZjtrJhBHyCyXoUWSC50kWFQ==}
+  renovate@41.93.3:
+    resolution: {integrity: sha512-HPuD/h1qGUGaYvAtSiX+dryqBgIlyVC1JKfsMruD4RdoH/tLt5m/1Evdpk/bgOlTaeLGtlEfGwcEna+PR/7IeA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5509,7 +5509,7 @@ snapshots:
       klona: 2.0.6
       moo: 0.5.2
 
-  google-auth-library@10.2.1:
+  google-auth-library@10.3.0:
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -6485,7 +6485,7 @@ snapshots:
     dependencies:
       mimic-function: 5.0.1
 
-  openpgp@6.2.0:
+  openpgp@6.2.1:
     optional: true
 
   p-all@5.0.0:
@@ -6771,7 +6771,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.91.4(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.93.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.879.0
       '@aws-sdk/client-ec2': 3.879.0
@@ -6839,7 +6839,7 @@ snapshots:
       glob: 11.0.3
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 10.2.1
+      google-auth-library: 10.3.0
       got: 11.8.6
       graph-data-structure: 4.5.0
       handlebars: 4.7.8
@@ -6893,7 +6893,7 @@ snapshots:
       zod: 3.25.76
     optionalDependencies:
       better-sqlite3: 12.2.0
-      openpgp: 6.2.0
+      openpgp: 6.2.1
       re2: 1.22.1
     transitivePeerDependencies:
       - aws-crt
