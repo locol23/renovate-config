@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       renovate:
-        specifier: 41.97.12
-        version: 41.97.12(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.99.1
+        version: 41.99.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2325,10 +2325,9 @@ packages:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
     engines: {node: '>=18'}
 
-  openpgp@6.2.1:
-    resolution: {integrity: sha512-5vkqxQWgyrfY0shygqJTaCoa4SbPdjrpmtfREyXBBDrXjoRT25edEMQbdKH5/WxDXlLVn9TxPsVrKP72Jjuz2A==}
+  openpgp@6.2.2:
+    resolution: {integrity: sha512-P/dyEqQ3gfwOCo+xsqffzXjmUhGn4AZTOJ1LCcN21S23vAk+EAvMJOQTsb/C8krL6GjOSBxqGYckhik7+hneNw==}
     engines: {node: '>= 18.0.0'}
-    deprecated: This version has a bug affecting zlib compression if manually enabled as part of encryption or signing (see https://github.com/openpgpjs/openpgpjs/pull/1894). Please update to v6.2.2 or later.
 
   p-all@5.0.0:
     resolution: {integrity: sha512-pofqu/1FhCVa+78xNAptCGc9V45exFz2pvBRyIvgXkNM0Rh18Py7j8pQuSjA+zpabI46v9hRjNWmL9EAFcEbpw==}
@@ -2566,8 +2565,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.97.12:
-    resolution: {integrity: sha512-pG2jtUxcN3bJdQG0j7JR9OAguuFuStq4epn8uPVR+AqITKvdsmvDhaODb/GrS8PKGX3GY/Wx8W8ffTK69/meTg==}
+  renovate@41.99.1:
+    resolution: {integrity: sha512-Ta7BnX5ajOjyamhd1Ud4+3H2ZGqQzDjp6FA6SuQv+iH3bQ1OPTIGvIBGCVXKOQ+SzTUBZLgUt2iBR5zD0eP4Xw==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6486,7 +6485,7 @@ snapshots:
     dependencies:
       mimic-function: 5.0.1
 
-  openpgp@6.2.1:
+  openpgp@6.2.2:
     optional: true
 
   p-all@5.0.0:
@@ -6772,7 +6771,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.97.12(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.99.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.879.0
       '@aws-sdk/client-ec2': 3.879.0
@@ -6894,7 +6893,7 @@ snapshots:
       zod: 3.25.76
     optionalDependencies:
       better-sqlite3: 12.2.0
-      openpgp: 6.2.1
+      openpgp: 6.2.2
       re2: 1.22.1
     transitivePeerDependencies:
       - aws-crt
