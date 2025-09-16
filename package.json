@@ -24,10 +24,10 @@
     "husky": "9.1.7",
     "lint-staged": "16.1.6",
     "prettier": "3.6.2",
-    "renovate": "41.100.0"
+    "renovate": "41.113.2"
   },
   "lint-staged": {
     "*.{yml,yaml,md,json}": "prettier --write"
   },
-  "packageManager": "pnpm@10.15.1"
+  "packageManager": "pnpm@10.16.1"
 }
