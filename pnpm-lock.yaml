@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       renovate:
-        specifier: 41.165.7
-        version: 41.165.7(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.168.0
+        version: 41.168.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1305,9 +1305,6 @@ packages:
   email-addresses@5.0.0:
     resolution: {integrity: sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==}
 
-  emoji-regex@10.5.0:
-    resolution: {integrity: sha512-lb49vf1Xzfx080OKA0o6l8DQQpV+6Vg95zyCJX9VB/BqKYlhG7N4wgROUUHRA+ZPUefLnteQOad7z1kT2bV7bg==}
-
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
@@ -2564,8 +2561,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.165.7:
-    resolution: {integrity: sha512-cdxIgcEGEmTl5LTweHe5/7v+vE9cytAQKJ4AlEUTF6oDumKaWTYGE0hpSKcPre5q3CSIa52yg5uU8K9Z1bUmaA==}
+  renovate@41.168.0:
+    resolution: {integrity: sha512-Z1E1wjulgfPHaj6QdY28Y3+pwcDB6J9nol69AVLq1oaWvuBqS1owD8NF5dyoEelxl5XazEpDRuVH2oybLbdj2g==}
     engines: {node: ^22.13.0 || ^24.10.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5191,8 +5188,6 @@ snapshots:
 
   email-addresses@5.0.0: {}
 
-  emoji-regex@10.5.0: {}
-
   emoji-regex@10.6.0: {}
 
   emoji-regex@8.0.0: {}
@@ -6751,7 +6746,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.165.7(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.168.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.899.0
       '@aws-sdk/client-ec2': 3.899.0
@@ -7113,7 +7108,7 @@ snapshots:
 
   string-width@7.2.0:
     dependencies:
-      emoji-regex: 10.5.0
+      emoji-regex: 10.6.0
       get-east-asian-width: 1.3.0
       strip-ansi: 7.1.0
 
