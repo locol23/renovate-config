@@ -25,6 +25,8 @@
     "labels": ["security"],
     "schedule": ["at any time"]
   },
+  "dependencyDashboard": true,
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "groupName": "ESLint",
@@ -55,41 +57,20 @@
       "groupName": "Patch updates",
       "matchUpdateTypes": ["patch"],
       "addLabels": ["patch-update"],
-      "automerge": true,
-      "stabilityDays": 3
+      "automerge": true
     },
     {
       "groupName": "Minor updates",
       "matchUpdateTypes": ["minor"],
       "addLabels": ["minor-update"],
-      "automerge": true,
-      "stabilityDays": 7
-    },
-    {
-      "groupName": "DevDependencies",
-      "depTypes": ["devDependencies"],
-      "automerge": true,
-      "minor": {
-        "stabilityDays": 3
-      },
-      "patch": {
-        "stabilityDays": 1
-      }
+      "automerge": true
     },
     {
       "groupName": "Major updates",
       "matchUpdateTypes": ["major"],
       "addLabels": ["major-update"],
       "automerge": false,
-      "stabilityDays": 7
-    },
-    {
-      "groupName": "Security updates",
-      "matchPackagePatterns": ["*"],
-      "matchCurrentVersion": "/^.*[.-](security|sec|vuln|cve).*$/",
-      "automerge": true,
-      "schedule": ["at any time"],
-      "stabilityDays": 0
+      "minimumReleaseAge": "7 days"
     }
   ]
 }
