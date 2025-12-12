@@ -42,7 +42,7 @@
       "helpers:disableTypesNodeMajor"
     ],
     "labels": ["dependencies"],
-    "rangeStrategy": "bump",
+    "rangeStrategy": "pin",
     "packageRules": [
       {
         "groupName": "ESLint",
