@@ -1,76 +1,91 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":label(renovate)",
-    ":timezone(Asia/Tokyo)",
-    ":noUnscheduledUpdates",
-    ":separatePatchReleases",
-    ":prNotPending",
-    ":rebaseStalePrs",
-    ":semanticCommits",
-    ":automergeRequireAllStatusChecks",
-    "group:monorepos",
-    "group:recommended",
-    "replacements:all",
-    "workarounds:all"
-  ],
+  "extends": ["config:recommended", ":timezone(Asia/Tokyo)"],
   "schedule": ["after 9pm", "before 9am"],
-  "prConcurrentLimit": 10,
-  "prHourlyLimit": 2,
-  "platformAutomerge": true,
-  "rangeStrategy": "bump",
   "vulnerabilityAlerts": {
     "enabled": true,
     "labels": ["security"],
-    "schedule": ["at any time"]
+    "schedule": ["at any time"],
+    "automerge": true
   },
   "dependencyDashboard": true,
-  "minimumReleaseAge": "3 days",
-  "packageRules": [
-    {
-      "groupName": "ESLint",
-      "packagePatterns": ["^eslint", "^@typescript-eslint/"]
+  "minimumReleaseAge": "7 days",
+  "github-actions": {
+    "labels": ["CI"],
+    "pinDigests": true,
+    "major": {
+      "automerge": false
     },
-    {
-      "groupName": "renovate",
+    "minor": {
       "automerge": true,
-      "packageNames": ["renovate"]
-    },
-    {
-      "groupName": "React",
-      "packagePatterns": ["^react", "^@types/react"]
-    },
-    {
-      "groupName": "Next.js",
-      "packagePatterns": ["^next", "^@next/"]
-    },
-    {
-      "groupName": "TypeScript",
-      "packagePatterns": ["^typescript", "^@types/"]
-    },
-    {
-      "groupName": "Node.js",
-      "packagePatterns": ["^@types/node"]
-    },
-    {
-      "groupName": "Patch updates",
-      "matchUpdateTypes": ["patch"],
-      "addLabels": ["patch-update"],
-      "automerge": true
-    },
-    {
       "groupName": "Minor updates",
-      "matchUpdateTypes": ["minor"],
-      "addLabels": ["minor-update"],
-      "automerge": true
+      "prCreation": "status-success"
     },
-    {
-      "groupName": "Major updates",
-      "matchUpdateTypes": ["major"],
-      "addLabels": ["major-update"],
-      "automerge": false,
-      "minimumReleaseAge": "7 days"
+    "patch": {
+      "automerge": true,
+      "groupName": "Patch updates",
+      "prCreation": "status-success"
     }
-  ]
+  },
+  "npm": {
+    "extends": [
+      ":noUnscheduledUpdates",
+      ":separatePatchReleases",
+      ":prNotPending",
+      ":rebaseStalePrs",
+      ":semanticCommits",
+      ":automergeRequireAllStatusChecks",
+      "group:monorepos",
+      "group:recommended",
+      "replacements:all",
+      "helpers:disableTypesNodeMajor"
+    ],
+    "labels": ["dependencies"],
+    "rangeStrategy": "bump",
+    "packageRules": [
+      {
+        "groupName": "ESLint",
+        "packagePatterns": ["^eslint", "^@typescript-eslint/"]
+      },
+      {
+        "groupName": "renovate",
+        "automerge": true,
+        "packageNames": ["renovate"]
+      },
+      {
+        "groupName": "React",
+        "packagePatterns": ["^react", "^@types/react"]
+      },
+      {
+        "groupName": "Next.js",
+        "packagePatterns": ["^next", "^@next/"]
+      },
+      {
+        "groupName": "TypeScript",
+        "packagePatterns": ["^typescript", "^@types/"]
+      },
+      {
+        "groupName": "Node.js",
+        "packagePatterns": ["^@types/node"]
+      },
+      {
+        "groupName": "Patch updates",
+        "matchUpdateTypes": ["patch"],
+        "addLabels": ["patch-update"],
+        "automerge": true
+      },
+      {
+        "groupName": "Minor updates",
+        "matchUpdateTypes": ["minor"],
+        "addLabels": ["minor-update"],
+        "automerge": true
+      },
+      {
+        "groupName": "Major updates",
+        "matchUpdateTypes": ["major"],
+        "addLabels": ["major-update"],
+        "automerge": false
+      }
+    ]
+  }
 }
