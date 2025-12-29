@@ -18,8 +18,8 @@ importers:
         specifier: 3.7.4
         version: 3.7.4
       renovate:
-        specifier: 42.64.1
-        version: 42.64.1(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.66.0
+        version: 42.66.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -987,8 +987,8 @@ packages:
   aws4@1.13.2:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
 
-  azure-devops-node-api@15.1.1:
-    resolution: {integrity: sha512-ohL2CY+zRAItKvwkHhefYxjr0Hndu6s8qKwyl0+wL4Ol6c4UrsI3A3G6ZPwwK81c1Ga3dEXjeDg4aKV4hn9loA==}
+  azure-devops-node-api@15.1.2:
+    resolution: {integrity: sha512-PfJTGK8oaBB3e0hilF5QE5BT0axpxssZlc0pRq3Rb0XsKr4qk1Cma+jBRRz0hE+zuUsu/7cz0WTCVo+kcVvOjw==}
     engines: {node: '>= 16.0.0'}
 
   backslash@0.2.0:
@@ -2547,8 +2547,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.64.1:
-    resolution: {integrity: sha512-5KU+VlbDnVAHjarpr/+Up1mF3JMoyiuo97iCmwJdsLZRqM2PABatg3uAfHlu82m5nufXySW9C6CaaXA1ZKhMDg==}
+  renovate@42.66.0:
+    resolution: {integrity: sha512-ljMx8Iut7qonOY4LmKFEvYl1xpdJidGy39MgEyRi3LOVygd0xLYrlUib1Aj+tg2E87NTpy5PzCWwILirDY/EZw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4847,7 +4847,7 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  azure-devops-node-api@15.1.1:
+  azure-devops-node-api@15.1.2:
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 2.1.0
@@ -6719,7 +6719,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.64.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.66.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.940.0
       '@aws-sdk/client-ec2': 3.940.0
@@ -6761,7 +6761,7 @@ snapshots:
       async-mutex: 0.5.0
       auth-header: 1.0.0
       aws4: 1.13.2
-      azure-devops-node-api: 15.1.1
+      azure-devops-node-api: 15.1.2
       bunyan: 1.8.15
       cacache: 20.0.3
       chalk: 5.6.2
