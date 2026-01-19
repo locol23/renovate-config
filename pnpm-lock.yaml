@@ -18,8 +18,8 @@ importers:
         specifier: 3.7.4
         version: 3.7.4
       renovate:
-        specifier: 42.78.1
-        version: 42.78.1(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.80.1
+        version: 42.80.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2360,8 +2360,8 @@ packages:
     resolution: {integrity: sha512-tkAQEw8ysMzmkhgw8k+1U/iPhWNhykKnSk4Rd5zLoPJCuJaGRPo6YposrZgaxHKzDHdDWWZvE/Sk7hsL2X/CpQ==}
     engines: {node: '>=18'}
 
-  p-queue@9.0.1:
-    resolution: {integrity: sha512-RhBdVhSwJb7Ocn3e8ULk4NMwBEuOxe+1zcgphUy9c2e5aR/xbEsdVXxHJ3lynw6Qiqu7OINEyHlZkiblEpaq7w==}
+  p-queue@9.1.0:
+    resolution: {integrity: sha512-O/ZPaXuQV29uSLbxWBGGZO1mCQXV2BLIwUr59JUU9SoH76mnYvtms7aafH/isNSNGwuEfP6W/4xD0/TJXxrizw==}
     engines: {node: '>=20'}
 
   p-throttle@8.1.0:
@@ -2551,8 +2551,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.78.1:
-    resolution: {integrity: sha512-U4zlQ++XQwWWA6BN66jNtKoOjWXwEm7NQPto+a5TtLmQ69Lmw3YqN62luc5/yfZtJpppMSVnxsdsn4uZrQDlGw==}
+  renovate@42.80.1:
+    resolution: {integrity: sha512-EqzEt8VUhQu/Cvp3yGB3lRZ9bOpCkrJ0vflg1UqSo3E9Nnt+JPnNKx/3H0dhL4PUqEdzNPZVoxBxpQaSB6jJbQ==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2829,10 +2829,12 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   tar@7.5.2:
     resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   through2-concurrent@2.0.0:
     resolution: {integrity: sha512-R5/jLkfMvdmDD+seLwN7vB+mhbqzWop5fAjx5IX8/yQq7VhBhzDmhXgaHAOnhnWkCpRMM7gToYHycB0CS/pd+A==}
@@ -6456,7 +6458,7 @@ snapshots:
 
   p-map@7.0.4: {}
 
-  p-queue@9.0.1:
+  p-queue@9.1.0:
     dependencies:
       eventemitter3: 5.0.1
       p-timeout: 7.0.1
@@ -6695,7 +6697,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.78.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.80.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6789,7 +6791,7 @@ snapshots:
       node-html-parser: 7.0.1
       p-all: 5.0.1
       p-map: 7.0.4
-      p-queue: 9.0.1
+      p-queue: 9.1.0
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.6.2
