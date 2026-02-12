@@ -60,6 +60,7 @@ packages:
   '@aws-sdk/client-ec2@3.958.0':
     resolution: {integrity: sha512-wLVg+QPCpH7Mu04ChqZ2iYOgXvjFzCe84iHdvtpcOj15Opq0z37tajIAQ47vUZpY//hTOy22/0TjQDHdZNitbg==}
     engines: {node: '>=18.0.0'}
+    deprecated: upgrade to @aws-sdk/client-ec2 v3.989.0+ for a serialization fix. Info at https://github.com/aws/aws-sdk-js-v3/pull/7734.
 
   '@aws-sdk/client-ecr@3.958.0':
     resolution: {integrity: sha512-VKRzLqvb27PvG3zTG+BMPDzsvKTTQXUK06OrN+o7zU3ZDMWsIlSH02U4rQ/LvpPOhnFSi+D8RrUnR269cF/r/g==}
