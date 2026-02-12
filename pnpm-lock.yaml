@@ -18,8 +18,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       renovate:
-        specifier: 42.95.7
-        version: 42.95.7(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.95.11
+        version: 42.95.11(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1170,8 +1170,8 @@ packages:
     resolution: {integrity: sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.9.0:
-    resolution: {integrity: sha512-T3S35zmD0Ai2B4ko6+mEM+k9C6tipe2nB9RLiGT6QL2Wn0Vsn2cCZAC8Oeuf4CaE00GZWVdpYitbpWCNlIWqdA==}
+  cronstrue@3.11.0:
+    resolution: {integrity: sha512-nXST7NEkjPF6loOTJtCwbLHB6cOVR5Ofuq/VZ4UGsZw/0HTvxy6mRCrDHOJ4xoLPcuS3ooruBLyUk3INaidKwg==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2513,8 +2513,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.95.7:
-    resolution: {integrity: sha512-oBmcs0mAP6DP0QkB1umMFhSZ9MbeVxlIQ76Hwt8T+ETJXkCPxgdBrOJDKjemT0GQ263EiNU/Eqs3pUX8P9i+gg==}
+  renovate@42.95.11:
+    resolution: {integrity: sha512-nBUGpzd/k2l9gUvr6NE6ebln1CoHt381OpheurPruhtHI1WG4WaUWYoE2CqjYSw98+/V0dnYNmO0qKkn2+Llhg==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4985,7 +4985,7 @@ snapshots:
 
   croner@9.1.0: {}
 
-  cronstrue@3.9.0: {}
+  cronstrue@3.11.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -6618,7 +6618,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.95.7(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.95.11(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6669,7 +6669,7 @@ snapshots:
       commander: 14.0.2
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
-      cronstrue: 3.9.0
+      cronstrue: 3.11.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
