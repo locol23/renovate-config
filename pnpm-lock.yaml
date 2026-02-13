@@ -18,8 +18,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       renovate:
-        specifier: 42.95.11
-        version: 42.95.11(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.96.0
+        version: 42.96.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -60,6 +60,7 @@ packages:
   '@aws-sdk/client-ec2@3.958.0':
     resolution: {integrity: sha512-wLVg+QPCpH7Mu04ChqZ2iYOgXvjFzCe84iHdvtpcOj15Opq0z37tajIAQ47vUZpY//hTOy22/0TjQDHdZNitbg==}
     engines: {node: '>=18.0.0'}
+    deprecated: upgrade to @aws-sdk/client-ec2 v3.989.0+ for a serialization fix. Info at https://github.com/aws/aws-sdk-js-v3/pull/7734.
 
   '@aws-sdk/client-ecr@3.958.0':
     resolution: {integrity: sha512-VKRzLqvb27PvG3zTG+BMPDzsvKTTQXUK06OrN+o7zU3ZDMWsIlSH02U4rQ/LvpPOhnFSi+D8RrUnR269cF/r/g==}
@@ -2513,8 +2514,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.95.11:
-    resolution: {integrity: sha512-nBUGpzd/k2l9gUvr6NE6ebln1CoHt381OpheurPruhtHI1WG4WaUWYoE2CqjYSw98+/V0dnYNmO0qKkn2+Llhg==}
+  renovate@42.96.0:
+    resolution: {integrity: sha512-lM57hKFGpz4wg/Mz/L1aqbwN5NxkLzgoMYWX5OqUX5fT6QZqo3y/Vu9SwhO408i2ZL4zWwRH2plra9rONNPoFw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6618,7 +6619,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.95.11(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.96.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
