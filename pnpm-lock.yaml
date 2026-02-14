@@ -18,8 +18,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       renovate:
-        specifier: 42.96.0
-        version: 42.96.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.96.3
+        version: 42.96.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1151,6 +1151,10 @@ packages:
 
   commander@14.0.2:
     resolution: {integrity: sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==}
+    engines: {node: '>=20'}
+
+  commander@14.0.3:
+    resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
     engines: {node: '>=20'}
 
   concat-map@0.0.1:
@@ -2514,8 +2518,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.96.0:
-    resolution: {integrity: sha512-lM57hKFGpz4wg/Mz/L1aqbwN5NxkLzgoMYWX5OqUX5fT6QZqo3y/Vu9SwhO408i2ZL4zWwRH2plra9rONNPoFw==}
+  renovate@42.96.3:
+    resolution: {integrity: sha512-oeJkoxzj9Cp05JyoA6SbGtCMUPhriLMsfilKl1ezeA7mmTKSjJZAis6popjaI8/MzMzaXbYXX9BM+4scqr26KQ==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4970,6 +4974,8 @@ snapshots:
 
   commander@14.0.2: {}
 
+  commander@14.0.3: {}
+
   concat-map@0.0.1:
     optional: true
 
@@ -5106,7 +5112,7 @@ snapshots:
   editorconfig@3.0.1:
     dependencies:
       '@one-ini/wasm': 0.2.0
-      commander: 14.0.2
+      commander: 14.0.3
       minimatch: 10.0.1
       semver: 7.7.2
 
@@ -6619,7 +6625,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.96.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.96.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6667,7 +6673,7 @@ snapshots:
       cacache: 20.0.3
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 14.0.2
+      commander: 14.0.3
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
       cronstrue: 3.11.0
