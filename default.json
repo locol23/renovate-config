@@ -12,7 +12,10 @@
   "minimumReleaseAge": "7 days",
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "automerge": false
+    "schedule": ["at any time"],
+    "minimumReleaseAge": null,
+    "automerge": true,
+    "ignoreTests": false
   },
   "packageRules": [
     {
