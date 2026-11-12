@@ -6,6 +6,7 @@
     ":semanticCommits",
     ":rebaseStalePrs",
     "helpers:disableTypesNodeMajor",
+    "docker:pinDigests",
     "helpers:pinGitHubActionDigests"
   ],
   "schedule": ["after 9pm", "before 9am"],
@@ -35,9 +36,9 @@
       "addLabels": ["CI"]
     },
     {
-      "description": "Pin npm app dependency versions and label updates",
+      "description": "Pin npm app dependency versions (including optionalDependencies and pnpm/yarn catalogs) and label updates",
       "matchManagers": ["npm"],
-      "matchDepTypes": ["dependencies", "devDependencies"],
+      "matchDepTypes": ["dependencies", "devDependencies", "optionalDependencies", "pnpm.catalog.*", "yarn.catalog.*"],
       "addLabels": ["dependencies"],
       "rangeStrategy": "pin"
     }
