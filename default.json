@@ -5,57 +5,38 @@
     ":timezone(Asia/Tokyo)",
     ":semanticCommits",
     ":rebaseStalePrs",
-    "group:monorepos",
-    "group:recommended",
-    "replacements:all",
-    "helpers:disableTypesNodeMajor"
+    "helpers:disableTypesNodeMajor",
+    "helpers:pinGitHubActionDigests"
   ],
   "schedule": ["after 9pm", "before 9am"],
-  "dependencyDashboard": true,
   "minimumReleaseAge": "7 days",
   "vulnerabilityAlerts": {
-    "enabled": true,
     "labels": ["security"],
-    "schedule": ["at any time"],
-    "automerge": true
+    "automerge": false
   },
   "packageRules": [
     {
-      "description": "Automerge minor and patch updates",
+      "description": "Automerge stable minor and patch updates",
       "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
       "automerge": true
     },
     {
-      "description": "GitHub Actions - pin digests",
+      "description": "Allow pinDigest updates immediately so frequently releasing Actions are not left unpinned",
+      "matchUpdateTypes": ["pinDigest"],
+      "minimumReleaseAge": null
+    },
+    {
+      "description": "Label GitHub Actions updates",
       "matchManagers": ["github-actions"],
-      "labels": ["CI"],
-      "pinDigests": true
+      "addLabels": ["CI"]
     },
     {
-      "description": "npm packages - pin versions",
+      "description": "Pin npm app dependency versions and label updates",
       "matchManagers": ["npm"],
-      "labels": ["dependencies"],
+      "matchDepTypes": ["dependencies", "devDependencies"],
+      "addLabels": ["dependencies"],
       "rangeStrategy": "pin"
-    },
-    {
-      "description": "Group ESLint packages",
-      "groupName": "ESLint",
-      "matchPackageNames": ["/^eslint/", "/^@typescript-eslint//"]
-    },
-    {
-      "description": "Group React packages",
-      "groupName": "React",
-      "matchPackageNames": ["/^react/", "/^@types/react/"]
-    },
-    {
-      "description": "Group Next.js packages",
-      "groupName": "Next.js",
-      "matchPackageNames": ["/^next/", "/^@next//"]
-    },
-    {
-      "description": "Group TypeScript packages",
-      "matchPackageNames": ["typescript"],
-      "groupName": "TypeScript"
     }
   ]
 }

@@ -16,6 +16,14 @@ Add `github>locol23/renovate-config` to `extends` property for your renovate con
 
 Note: You don't need to npm install
 
+## Required repository labels
+
+Create these labels in each consuming repository so Renovate can attach them to PRs:
+
+- `security`
+- `CI`
+- `dependencies`
+
 ## License
 
 MIT
