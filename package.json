@@ -22,12 +22,12 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "9.1.7",
-    "lint-staged": "16.2.7",
-    "prettier": "3.8.1",
-    "renovate": "42.99.0"
+    "lint-staged": "17.6.0",
+    "prettier": "3.9.10",
+    "renovate": "44.216.5"
   },
   "lint-staged": {
     "*.{yml,yaml,md,json}": "prettier --write"
   },
-  "packageManager": "pnpm@10.30.2"
+  "packageManager": "pnpm@10.34.9"
 }
